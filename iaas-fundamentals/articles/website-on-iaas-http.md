@@ -96,7 +96,21 @@ Self-guided
 
    ![Screenshot](media/website-on-iaas-http/poc-9.png)
 
-  * From the **Server Manager Dashboard**, select **Add Roles and Features**
+  * Once logged into the RDP session - you can either install the Web Server role using PowerShell (below) or follow the instructions to add the Web Server Role through Server Manager manually. If you add through PowerShell you may skip the following section.
+
+  * To add the IIS webserver via PowerShell: Open the **Windows PowerShell ISE** from the windows start menu as **Administrator**
+
+   ![Screenshot](media/website-on-iaas-http/poc-10.0.png)
+
+ * Run the following PowerShell script from the **ISE**
+
+  ```
+Set-ExecutionPolicy Bypass -Scope Process
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServerRole
+Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServer
+ ```
+
+  * To add the IIS webserver manually: From the **Server Manager Dashboard**, select **Add Roles and Features**
 
    ![Screenshot](media/website-on-iaas-http/poc-10.png)
 
@@ -113,7 +127,7 @@ Self-guided
 
   ![Screenshot](media/website-on-iaas-http/poc-11.png)
 
-  >Note: Wait for installation to complete
+  >Note: Wait for installation (or PowerShell) to complete
  
   * On  **Confirmation**, click **Close**
   * Launch the **Internet Information Services (IIS) Manager** from the **Server Manager** tools menu
