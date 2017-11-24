@@ -4,10 +4,10 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 
 # Azure Fundamentals Scenarios
 
-* [IaaS Fundamentals](iaas-fundamentals/articles/)
-* PaaS Fundamentals (wip)
-* Governance (wip)
-
+* [IaaS Fundamentals](iaas-fundamentals/)
+* [PaaS Fundamentals](paas-fundamentals/)
+* [Governance](governance/)
+ 
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
