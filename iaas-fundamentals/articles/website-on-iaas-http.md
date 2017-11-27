@@ -102,7 +102,7 @@ Self-guided
       
          * Open the **Windows PowerShell ISE** from the windows start menu as **Administrator**
 
-            ![Screenshot](media/website-on-iaas-http/poc-10.0.png)
+            ![Screenshot](media/website-on-iaas-http/poc-windows-powershell-ise.png)
 
           * Run the following PowerShell script from the **ISE**
 
