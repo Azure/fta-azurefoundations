@@ -5,6 +5,7 @@
 * [Learning objectives](#learning-objectives)
 * [Prerequisites](#prerequisites)
 * [Estimated time to complete this module](#estimated-time-to-complete-this-module)
+* [Scenario](#scenario)
 * [Customize your Azure Portal](#customize-your-azure-portal)
 * [Resource Group creation](#resource-group-creation)
 * [Virtual Network Creation](#virtual-network-creation)
@@ -40,6 +41,12 @@ After completing the exercises in this module, you will be able to:
 
 # Estimated time to complete this module
 Self-guided
+
+# Scenario
+
+## Deploying Website on Azure IaaS VMs
+
+![Screenshot](media/website-on-iaas-http/poc-iaas-scenario-01.png)
 
 # Customize your Azure Portal
 * Launch [Azure Portal](https://portal.azure.com/)
