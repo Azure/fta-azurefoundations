@@ -107,9 +107,9 @@ Self-guided
           * Run the following PowerShell script from the **ISE**
 
             ```
-            Set-ExecutionPolicy Bypass -Scope Process
-            Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServerRole
-            Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServer
+            Set-ExecutionPolicy Bypass -Scope Process;
+            Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServerRole;
+            Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServer;
              ```
 
       * **GUI**
