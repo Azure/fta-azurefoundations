@@ -1,0 +1,13 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "siteName": {
+      "value": "fta-web-dep"
+    },
+    "hostingPlanName": {
+      "value": "fta-web-dep-plan"
+    }
+  }
+}
+

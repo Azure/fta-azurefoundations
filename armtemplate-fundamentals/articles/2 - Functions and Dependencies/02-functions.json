@@ -1,0 +1,74 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environmentName": {
+      "type": "string",
+      "allowedValues": [
+        "dev",
+        "prod"
+      ],
+      "defaultValue": "dev",
+      "metadata": {
+        "description": "Which environment to deploy, dev or prod"
+      }
+    },
+    "organisationalName": {
+      "type": "string",
+      "defaultValue": "fta",
+      "metadata": {
+        "description": "Abbreviation of your organisational name"
+      }
+    }
+  },
+  "variables": {
+    "environmentSettings": {
+      "dev": {
+        "environmentPrefix": "dev",
+        "vnetAddressRange": "10.0.0.0/16",
+        "subnet1AddressRange": "10.0.0.0/25",
+        "subnet2AddressRange": "10.0.1.0/25"
+      },
+      "prod": {
+        "environmentPrefix": "prod",
+        "vnetAddressRange": "10.10.0.0/16",
+        "subnet1AddressRange": "10.10.0.0/25",
+        "subnet2AddressRange": "10.10.1.0/25"
+      }
+    },
+    "currentEnvironmentSettings": "[variables('environmentSettings')[parameters('environmentName')]]",
+    "resourcePrefix": "[concat(parameters('organisationalName'),'-',variables('currentEnvironmentSettings').environmentPrefix)]",
+    "vnetAddressRange": "[variables('currentEnvironmentSettings').vnetAddressRange]",
+    "subnet1AddressRange": "[variables('currentEnvironmentSettings').subnet1AddressRange]",
+    "subnet2AddressRange": "[variables('currentEnvironmentSettings').subnet2AddressRange]"
+  },
+  "resources": [
+    {
+      "apiVersion": "2015-06-15",
+      "type": "Microsoft.Network/virtualNetworks",
+      "name": "[concat(variables('resourcePrefix'),'-vnet')]",
+      "location": "[resourceGroup().location]",
+      "properties": {
+        "addressSpace": {
+          "addressPrefixes": [
+            "[variables('vnetAddressRange')]"
+          ]
+        },
+        "subnets": [
+          {
+            "name": "[concat(variables('resourcePrefix'),'-subnetA')]",
+            "properties": {
+              "addressPrefix": "[variables('subnet1AddressRange')]"
+            }
+          },
+          {
+            "name": "[concat(variables('resourcePrefix'),'-subnetB')]",
+            "properties": {
+              "addressPrefix": "[variables('subnet2AddressRange')]"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
