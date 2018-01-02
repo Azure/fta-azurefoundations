@@ -5,3 +5,4 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 
 # Governance
 
+* [Reference Resources](articles/azure-governance-reference-resources.md)
