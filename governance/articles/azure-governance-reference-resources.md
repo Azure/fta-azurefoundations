@@ -4,6 +4,8 @@
 
 * [Azure enterprise scaffold - prescriptive subscription governance](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-subscription-governance)
 
+* [Azure Virtual Datacenter](https://azure.microsoft.com/en-us/resources/azure-virtual-datacenter/en-us/)
+
 ## Naming Standards
 
 * [Naming Conventions Best Practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/naming-conventions)
