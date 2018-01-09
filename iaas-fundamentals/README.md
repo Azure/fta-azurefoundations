@@ -7,6 +7,7 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 # IaaS Fundamentals 
 
 * [Reference Resources](articles/iaas-fundamentals-reference-resources.md)
+    * [Azure Planned Maintenance]((articles/iaas-fundamentals-reference-resources.md#azure-planned-maintenance)
     * [Azure Overview](articles/iaas-fundamentals-reference-resources.md#azure-overview)
     * [Core IaaS Services](articles/iaas-fundamentals-reference-resources.md#core-iaas-services)
     * [Resource Manager](articles/iaas-fundamentals-reference-resources.md#resource-manager)
