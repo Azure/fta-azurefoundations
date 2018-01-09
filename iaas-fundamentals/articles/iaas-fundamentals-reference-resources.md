@@ -4,6 +4,16 @@
 * [Azure Portal](https://portal.azure.com)
 
 
+## Azure Planned Maintenance
+
+* [Official Azure blog post on vulnerability and our maintenance](https://azure.microsoft.com/en-us/blog/securing-azure-customers-from-cpu-vulnerability/)
+
+* [Azure documentation page with Frequently Asked Questions](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/accelerated-maintenance)
+​
+* [Security TechCenter Advisory: Guidance for Windows​](https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/ADV180002)
+​
+
+
 ## Azure Overview
 
 * [What is cloud computing?](https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/)
