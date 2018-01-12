@@ -18,4 +18,5 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 * POC
     * [POC Scenario 1: Deploying Website on Azure IaaS VMs - HTTP](articles/website-on-iaas-http.md)
     * [POC Scenario 2: Deploying Website on Azure IaaS VMs - HTTPS](articles/website-on-iaas-https.md)
+    * [POC Scenario 2: Deploying Website on Azure IaaS VMs - HTTP - Red Hat Linux](articles/website-on-iaas-http-rhel.md)
 
