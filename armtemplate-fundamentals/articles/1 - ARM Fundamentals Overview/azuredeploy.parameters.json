@@ -1,0 +1,24 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vnetName": {
+      "value": "fta-armtemp-vNet"
+    },
+    "vnetAddressPrefix": {
+      "value": "10.0.0.0/16"
+    },
+    "subnet1Name": {
+      "value": "SubnetA"
+    },
+    "subnet1Prefix": {
+      "value": "10.0.5.0/24"
+    },
+    "subnet2Name": {
+      "value": "SubnetB"
+    },
+    "subnet2Prefix": {
+      "value": "10.0.10.0/24"
+    }
+  }
+}

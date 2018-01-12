@@ -5,6 +5,7 @@
 * [Learning objectives](#learning-objectives)
 * [Prerequisites](#prerequisites)
 * [Estimated time to complete this module](#estimated-time-to-complete-this-module)
+* [Scenario](#scenario)
 * [Customize your Azure Portal](#customize-your-azure-portal)
 * [Resource Group creation](#resource-group-creation)
 * [Virtual Network Creation](#virtual-network-creation)
@@ -40,6 +41,12 @@ After completing the exercises in this module, you will be able to:
 
 # Estimated time to complete this module
 Self-guided
+
+# Scenario
+
+## Deploying Website on Azure IaaS VMs
+
+![Screenshot](media/website-on-iaas-http/poc-iaas-scenario-01.png)
 
 # Customize your Azure Portal
 * Launch [Azure Portal](https://portal.azure.com/)
@@ -96,26 +103,45 @@ Self-guided
 
    ![Screenshot](media/website-on-iaas-http/poc-9.png)
 
-  * From the **Server Manager Dashboard**, select **Add Roles and Features**
+  * Once logged into the RDP session choose one option below to install the Web Server role (PowerShell or GUI):
 
-   ![Screenshot](media/website-on-iaas-http/poc-10.png)
+      * **PowerShell**
+      
+         * Open the **Windows PowerShell ISE** from the windows start menu as **Administrator**
 
-  * Click **Next** on **Before you Begin**
-  * Click **Next** on **Installation Type**
-  * Click **Next** on **Server Selection**
-  * On **Server Roles**, select **Web Server IIS**
-  * On **Add Roles and Features** popup, click **Add Features**
-  * On **Server Roles**, click **Next**
-  * On **Features**, click **Next**
-  * On **Web Server Role(IIS)**, click **Next**
-  * On **Role Services**, click **Next**
-  * On  **Confirmation**, click **Install**
+            ![Screenshot](media/website-on-iaas-http/poc-windows-powershell-ise.png)
 
-  ![Screenshot](media/website-on-iaas-http/poc-11.png)
+          * Run the following PowerShell script from the **ISE**
 
-  >Note: Wait for installation to complete
- 
-  * On  **Confirmation**, click **Close**
+            ```
+            Set-ExecutionPolicy Bypass -Scope Process;
+            Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServerRole;
+            Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServer;
+             ```
+
+      * **GUI**
+      
+         * From the **Server Manager Dashboard**, select **Add Roles and Features**
+
+            ![Screenshot](media/website-on-iaas-http/poc-10.png)
+
+        * Click **Next** on **Before you Begin**
+        * Click **Next** on **Installation Type**
+        * Click **Next** on **Server Selection**
+        * On **Server Roles**, select **Web Server IIS**
+        * On **Add Roles and Features** popup, click **Add Features**
+        * On **Server Roles**, click **Next**
+        * On **Features**, click **Next**
+        * On **Web Server Role(IIS)**, click **Next**
+        * On **Role Services**, click **Next**
+        * On  **Confirmation**, click **Install**
+
+          ![Screenshot](media/website-on-iaas-http/poc-11.png)
+
+        * On  **Confirmation**, click **Close**
+        
+  > Note: Wait for the Web Server role installation to complete (PowerShell or GUI).
+  
   * Launch the **Internet Information Services (IIS) Manager** from the **Server Manager** tools menu
   * In the **Connections** panel, drill down to **Sites**
   * On **Default Web Site**, **Right-Click** and select **Switch to Content View**
@@ -126,7 +152,7 @@ Self-guided
 
   * Find the follow line right after the <**body**> tag and add the following.
 
-  ```
+```
 For VM1: <h1>This is Web Server 01</h1>
 For VM2: <h1>This is Web Server 02</h1>
 ``` 
