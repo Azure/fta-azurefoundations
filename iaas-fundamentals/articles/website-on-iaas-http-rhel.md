@@ -1,4 +1,4 @@
-# POC Scenario 1: Deploying Website on Azure IaaS VMs (Red Hat Enterprise Linux) - HTTP
+# POC Scenario 3: Deploying Website on Azure IaaS VMs (Red Hat Enterprise Linux) - HTTP
 
 ## Table of Contents
 * [Abstract](#abstract)
