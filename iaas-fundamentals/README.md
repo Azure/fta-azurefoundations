@@ -14,6 +14,8 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
     * [Compute](articles/iaas-fundamentals-reference-resources.md#compute)
     * [Networking](articles/iaas-fundamentals-reference-resources.md#networking)
     * Architectural design best practices & guidance
+    * [Sovereign Clouds](articles/iaas-fundamentals-reference-resources.md#sovereign-clouds)
+    
 * POC
     * [POC Scenario 1: Deploying Website on Azure IaaS VMs - HTTP](articles/website-on-iaas-http.md)
     * [POC Scenario 2: Deploying Website on Azure IaaS VMs - HTTPS](articles/website-on-iaas-https.md)
