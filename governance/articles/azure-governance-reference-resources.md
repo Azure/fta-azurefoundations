@@ -6,6 +6,9 @@
 
 * [Azure Virtual Datacenter](https://azure.microsoft.com/en-us/resources/azure-virtual-datacenter/en-us/)
 
+* [Don’t build your cloud home on shaky foundations](https://azure.microsoft.com/en-us/blog/don-t-build-your-cloud-home-on-shaky-foundations/)
+
+
 ## Naming Standards
 
 * [Naming Conventions Best Practices](https://docs.microsoft.com/en-us/azure/architecture/best-practices/naming-conventions)
