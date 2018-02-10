@@ -111,7 +111,7 @@ After completing the exercises in this module, you will be able to:
 
 * Open two instances of the putty client and connect to the servers
 
- ![Screenshot](media/website-on-iaas-http-linux/linuxpoc-4.png)
+  ![Screenshot](media/website-on-iaas-http-linux/linuxpoc-4.png)
 
 * Click "Yes" on the putty security alert
  ![Screenshot](media/website-on-iaas-http-linux/linuxpoc-5.png)
@@ -158,11 +158,11 @@ From the SSH terminal, execute the following instructions on both servers.
 
  * Create a default page for Web Server 1
   ```bash  
-  echo "<h1>This is Webserver 01" > /var/www/html/index.html
+  echo "<h1>This is Webserver 01 </h1>" > /var/www/html/index.html
   ```   
   * Create a default page for Web Server 2
   ```
-  echo "<h1>This is Webserver 02" > /var/www/html/index.html
+  echo "<h1>This is Webserver 02 </h1>" > /var/www/html/index.html
   ```
 
  
