@@ -4,6 +4,8 @@
 
 * [Azure enterprise scaffold - prescriptive subscription governance](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-subscription-governance)
 
+* [Governance in Azure](https://docs.microsoft.com/en-us/azure/security/governance-in-azure)
+
 * [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits)
 
 * [Azure Virtual Datacenter](https://azure.microsoft.com/en-us/resources/azure-virtual-datacenter/en-us/)
