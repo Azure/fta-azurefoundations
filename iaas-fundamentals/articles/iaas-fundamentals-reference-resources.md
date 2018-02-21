@@ -125,8 +125,7 @@
 
 * [Azure Virtual Network](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
 
-* [Plan and design Azure Virtual Networks
-Virtual network traffic routing](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-vnet-plan-design-arm)
+* [Plan and design Azure Virtual Networks](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-vnet-plan-design-arm)
 
 * [IP address types and allocation methods in Azure](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-ip-addresses-overview-arm)
 
@@ -140,6 +139,15 @@ Virtual network traffic routing](https://docs.microsoft.com/en-us/azure/virtual-
 
 * [Network Appliances](https://azure.microsoft.com/en-us/solutions/network-appliances/)
 
+
+
+## Architectural design best practices & guidance
+
+* [Azure Reference Architectures](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/)
+
+* [Design Review Checklists](https://docs.microsoft.com/en-us/azure/architecture/checklist/)
+
+* [Azure security best practices and patterns](https://docs.microsoft.com/en-us/azure/security/security-best-practices-and-patterns)
 
 
 ## Sovereign Clouds
