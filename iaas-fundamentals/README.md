@@ -13,7 +13,7 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
     * [Storage](articles/iaas-fundamentals-reference-resources.md#storage)
     * [Compute](articles/iaas-fundamentals-reference-resources.md#compute)
     * [Networking](articles/iaas-fundamentals-reference-resources.md#networking)
-    * [Architectural design best practices & guidance](articles/UPDATE)
+    * [Architectural design best practices & guidance](articles/iaas-fundamentals-reference-resources.md#architectural-design-best-practices--guidance)
     * [Sovereign Clouds](articles/iaas-fundamentals-reference-resources.md#sovereign-clouds)
     
 * POC

@@ -150,6 +150,7 @@
 * [Azure security best practices and patterns](https://docs.microsoft.com/en-us/azure/security/security-best-practices-and-patterns)
 
 
+
 ## Sovereign Clouds
 
 * [Azure Government Documentation](https://docs.microsoft.com/en-us/azure/azure-government/)
