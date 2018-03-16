@@ -89,213 +89,213 @@
 # Virtual Machine Creation
 
   1. Create 2 VMs with the following settings:
-    * Image from the marketplace: **Windows Server 2016 Datacenter**
-    * Names: **(prefix)-web01-vm** and **(prefix)-web02-vm**
-    * VM disk type: **HDD disk**
+     * Image from the marketplace: **Windows Server 2016 Datacenter**
+     * Names: **(prefix)-web01-vm** and **(prefix)-web02-vm**
+     * VM disk type: **HDD disk**
 
-  ![Screenshot](media/website-on-iaas-http/poc-5.png)
+     ![Screenshot](media/website-on-iaas-http/poc-5.png)
 
-    * Size: **D1_V2**
-    * Availability Set: **(prefix)-web-as** (create it during the creation of the first VM)
-    * Storage / use managed disks: **Yes**
-    * Virtual Network: select the previously create Virtual Network 
-    * Subnet: select the previsouly created web subnet
+     * Size: **D1_V2**
+     * Availability Set: **(prefix)-web-as** (create it during the creation of the first VM)
+     * Storage / use managed disks: **Yes**
+     * Virtual Network: select the previously create Virtual Network 
+     * Subnet: select the previsouly created web subnet
 
-  ![Screenshot](media/website-on-iaas-http/poc-vm-settings-1.png)
+     ![Screenshot](media/website-on-iaas-http/poc-vm-settings-1.png)
 
-    * Create a Diagnostics Storage account named **(prefix)webdiag**.
+     * Create a Diagnostics Storage account named **(prefix)webdiag**.
 
-  ![Screenshot](media/website-on-iaas-http/poc-7.png)
+     ![Screenshot](media/website-on-iaas-http/poc-7.png)
 
 
 # Install IIs on the VMs
 
-   1. From the Virtual Machine blade, select the 1st VM, click **Connect** and login to machine.
+ 1. From the Virtual Machine blade, select the 1st VM, click **Connect** and login to machine.
 
-      ![Screenshot](media/website-on-iaas-http/poc-9.png)
+ ![Screenshot](media/website-on-iaas-http/poc-9.png)
 
-   2. Once logged into the RDP session choose one option below to install the Web Server role (PowerShell or GUI):
+ 2. Once logged into the RDP session choose one option below to install the Web Server role (PowerShell or GUI):
 
-      * **PowerShell**
+    * **PowerShell**
 
-         * Open the **Windows PowerShell ISE** from the windows start menu as **Administrator**
+       * Open the **Windows PowerShell ISE** from the windows start menu as **Administrator**
 
-            ![Screenshot](media/website-on-iaas-http/poc-windows-powershell-ise.png)
+          ![Screenshot](media/website-on-iaas-http/poc-windows-powershell-ise.png)
 
-         * Run the following PowerShell script from the **ISE**
+       * Run the following PowerShell script from the **ISE**
 
-            ```
-            Set-ExecutionPolicy Bypass -Scope Process;
-            Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServerRole;
-            Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServer;
-            ```
+          ```
+          Set-ExecutionPolicy Bypass -Scope Process;
+          Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServerRole;
+          Enable-WindowsOptionalFeature -Online -FeatureName IIS-WebServer;
+          ```
 
-      * **GUI**
+    * **GUI**
 
-         * From the **Server Manager Dashboard**, select **Add Roles and Features**
+       * From the **Server Manager Dashboard**, select **Add Roles and Features**
 
-            ![Screenshot](media/website-on-iaas-http/poc-10.png)
+          ![Screenshot](media/website-on-iaas-http/poc-10.png)
 
-        * Click **Next** on **Before you Begin**
-        * Click **Next** on **Installation Type**
-        * Click **Next** on **Server Selection**
-        * On **Server Roles**, select **Web Server IIS**
-        * On **Add Roles and Features** popup, click **Add Features**
-        * On **Server Roles**, click **Next**
-        * On **Features**, click **Next**
-        * On **Web Server Role(IIS)**, click **Next**
-        * On **Role Services**, click **Next**
-        * On  **Confirmation**, click **Install**
+      * Click **Next** on **Before you Begin**
+      * Click **Next** on **Installation Type**
+      * Click **Next** on **Server Selection**
+      * On **Server Roles**, select **Web Server IIS**
+      * On **Add Roles and Features** popup, click **Add Features**
+      * On **Server Roles**, click **Next**
+      * On **Features**, click **Next**
+      * On **Web Server Role(IIS)**, click **Next**
+      * On **Role Services**, click **Next**
+      * On  **Confirmation**, click **Install**
 
-          ![Screenshot](media/website-on-iaas-http/poc-11.png)
+        ![Screenshot](media/website-on-iaas-http/poc-11.png)
 
-        * On  **Confirmation**, click **Close**
+      * On  **Confirmation**, click **Close**
 
-     > Note: Wait for the Web Server role installation to complete (PowerShell or GUI).
+   > Note: Wait for the Web Server role installation to complete (PowerShell or GUI).
 
-   3. Launch the **Internet Information Services (IIS) Manager** from the **Server Manager** tools menu.
-   4. In the **Connections** panel, drill down to **Sites**.
-   5. On **Default Web Site**, **Right-Click** and select **Switch to Content View**.
-   6. **Right-Click** anywhere in panel and select **Explore**.
-   7. From the **Windows Explorer**, **Right-Click** on the file **IISStart.html**, and open in **Notepad**.
+ 3. Launch the **Internet Information Services (IIS) Manager** from the **Server Manager** tools menu.
+ 4. In the **Connections** panel, drill down to **Sites**.
+ 5. On **Default Web Site**, **Right-Click** and select **Switch to Content View**.
+ 6. **Right-Click** anywhere in panel and select **Explore**.
+ 7. From the **Windows Explorer**, **Right-Click** on the file **IISStart.html**, and open in **Notepad**.
 
-     ![Screenshot](media/website-on-iaas-http/poc-12.png)
+ ![Screenshot](media/website-on-iaas-http/poc-12.png)
 
-   8. Find the follow line right after the <**body**> tag and add the following.
+ 8. Find the follow line right after the <**body**> tag and add the following.
 
-      ```
-      For VM1: <h1>This is Web Server 01</h1>
-      For VM2: <h1>This is Web Server 02</h1>
-      ``` 
+    ```
+    For VM1: <h1>This is Web Server 01</h1>
+    For VM2: <h1>This is Web Server 02</h1>
+    ``` 
 
-     ![Screenshot](media/website-on-iaas-http/poc-13.png)
+   ![Screenshot](media/website-on-iaas-http/poc-13.png)
 
-   9. From Virtual Machine blade, select the 2nd VM, click **Connect** and login to machine and repeat all the steps above.
+ 9. From Virtual Machine blade, select the 2nd VM, click **Connect** and login to machine and repeat all the steps above.
 
-     ![Screenshot](media/website-on-iaas-http/poc-14.png)
+ ![Screenshot](media/website-on-iaas-http/poc-14.png)
 
 
 # Load Balancer Creation
 
-  1. From the left panel on the Azure Portal, select **Load balancers**.
-  2. Click on **Add**.
-  3. Name: **(prefix)-web-lb**.
-  4. Click **Public IP Address**, click **New**.
-  5. Enter name **(prefix)-web-pip**, click **Ok**.
+ 1. From the left panel on the Azure Portal, select **Load balancers**.
+ 2. Click on **Add**.
+ 3. Name: **(prefix)-web-lb**.
+ 4. Click **Public IP Address**, click **New**.
+ 5. Enter name **(prefix)-web-pip**, click **Ok**.
 
-  ![Screenshot](media/website-on-iaas-http/poc-15-dynamic.png)
+ ![Screenshot](media/website-on-iaas-http/poc-15-dynamic.png)
 
-  6. Select **Use Existing** for **Resource Group**, i.e. **(prefix)-poc-rg**, click **Create**.
+ 6. Select **Use Existing** for **Resource Group**, i.e. **(prefix)-poc-rg**, click **Create**.
 
-  ![Screenshot](media/website-on-iaas-http/poc-16.png)
+ ![Screenshot](media/website-on-iaas-http/poc-16.png)
 
-  7. After the **Load Balancer** is created, select the one you added.
+ 7. After the **Load Balancer** is created, select the one you added.
 
-  ![Screenshot](media/website-on-iaas-http/poc-17.png)
+ ![Screenshot](media/website-on-iaas-http/poc-17.png)
 
-  8. Under **Settings** select **Health probes**, click **Add**.
-  9. Enter name **(prefix)-web-prob**, leaving all the defaults, click **Ok**.
+ 8. Under **Settings** select **Health probes**, click **Add**.
+ 9. Enter name **(prefix)-web-prob**, leaving all the defaults, click **Ok**.
 
-  ![Screenshot](media/website-on-iaas-http/poc-18.png)
+ ![Screenshot](media/website-on-iaas-http/poc-18.png)
 
 
 # Add the VMs to Load Balancer
 
-  1. Under **Settings** select **Backend pools**, click **Add**.
-  2. Enter name **(prefix)-web-pool**.
-  3. For **Associated to**, select **Availability set**.
-  4. For the **Availability set**, select **(prefix)-web-as**.
-  5. Click **Add a target network IP configuration** to add the first web server and its IP address.
+ 1. Under **Settings** select **Backend pools**, click **Add**.
+ 2. Enter name **(prefix)-web-pool**.
+ 3. For **Associated to**, select **Availability set**.
+ 4. For the **Availability set**, select **(prefix)-web-as**.
+ 5. Click **Add a target network IP configuration** to add the first web server and its IP address.
 
-  ![Screenshot](media/website-on-iaas-http/poc-19.png)
+ ![Screenshot](media/website-on-iaas-http/poc-19.png)
 
-  6. **Repeat** the step above to also add the IP configuration for the second web server.
-  7. Click **OK**.
+ 6. **Repeat** the step above to also add the IP configuration for the second web server.
+ 7. Click **OK**.
 
 
 # Create the load balancing rule for HTTP
 
-   1. Under **Settings** select **Load balancing rules**, click **Add**.
-      * Enter name **(prefix)-http-lbr**
-      * Protocol: **TCP**
-      * Port: **80**
-      * Backend port: 80
-      * Backend pool: **(prefix)-web-pool(2VMs)**
-      * Probe: **(prefix)-web-prob(HTTP:80)**
-      * Session Persistence: **None**
-      * Idle timeout (min):**4**
-      * Floating IP (direct server return): **Disabled**
-      * Click **Ok**
+ 1. Under **Settings** select **Load balancing rules**, click **Add**.
+    * Enter name **(prefix)-http-lbr**
+    * Protocol: **TCP**
+    * Port: **80**
+    * Backend port: 80
+    * Backend pool: **(prefix)-web-pool(2VMs)**
+    * Probe: **(prefix)-web-prob(HTTP:80)**
+    * Session Persistence: **None**
+    * Idle timeout (min):**4**
+    * Floating IP (direct server return): **Disabled**
+    * Click **Ok**
 
-      ![Screenshot](media/website-on-iaas-http/poc-22.png)
+    ![Screenshot](media/website-on-iaas-http/poc-22.png)
 
 
 # Update the NSG (inbound security rule)
 
 ## Virtual machine #1 and #2
 
-   1. From the left panel on the Azure Portal, select **Virtual machines**, then select **(prefix)-web01-vm**.
-   2. Under **Settings** select **Network Interfaces**.
-   3. Click on **(prefix)-web01-vm-nsg**.
-   4. Under **Settings** select **Network Security Groups**.
-   5. Under **Network Security Group**, click on **(prefix)-web01-vm-nsg**.
+ 1. From the left panel on the Azure Portal, select **Virtual machines**, then select **(prefix)-web01-vm**.
+ 2. Under **Settings** select **Network Interfaces**.
+ 3. Click on **(prefix)-web01-vm-nsg**.
+ 4. Under **Settings** select **Network Security Groups**.
+ 5. Under **Network Security Group**, click on **(prefix)-web01-vm-nsg**.
 
-   ![Screenshot](media/website-on-iaas-http/poc-23.png)
+ ![Screenshot](media/website-on-iaas-http/poc-23.png)
 
-   6. Under **Settings**, click on **Inbound Security Rules**.
-   7. Click **Add** 
-      * Enter name **(prefix)-web01-vm-nsgr-http-allow**
-      * Priority:**1010**
-      * Source: **any**
-      * Service: **HTTP**
-      * Protocol: **TCP**
-      * Port range: **80**
-      * Action: **Allow**
+ 6. Under **Settings**, click on **Inbound Security Rules**.
+ 7. Click **Add** 
+    * Enter name **(prefix)-web01-vm-nsgr-http-allow**
+    * Priority:**1010**
+    * Source: **any**
+    * Service: **HTTP**
+    * Protocol: **TCP**
+    * Port range: **80**
+    * Action: **Allow**
 
-   ![Screenshot](media/website-on-iaas-http/poc-24.png)
+ ![Screenshot](media/website-on-iaas-http/poc-24.png)
 
-   8. Repeat the steps for the VIrtual Machine **(prefix)-web02-vm**.
+ 8. Repeat the steps for the VIrtual Machine **(prefix)-web02-vm**.
 
-   ![Screenshot](media/website-on-iaas-http/poc-25.png)
+ ![Screenshot](media/website-on-iaas-http/poc-25.png)
 
-   ![Screenshot](media/website-on-iaas-http/poc-26.png)
+ ![Screenshot](media/website-on-iaas-http/poc-26.png)
 
 
 # Assign DNS name to Load Balancer
 
-   1. From the left panel on the Azure Portal, select **Public IP addresses**.
-   2. Select **(prefix)-web-pip**.
-   3. Under Settings, click on **Configuration**.
-   4. Under DNS name enter **(prefix)** (i.e. http://**(prefix)**.westus2.cloudapp.azure.com/).
+ 1. From the left panel on the Azure Portal, select **Public IP addresses**.
+ 2. Select **(prefix)-web-pip**.
+ 3. Under Settings, click on **Configuration**.
+ 4. Under DNS name enter **(prefix)** (i.e. http://**(prefix)**.westus2.cloudapp.azure.com/).
 
-   ![Screenshot](media/website-on-iaas-http/poc-27.png)
+ ![Screenshot](media/website-on-iaas-http/poc-27.png)
 
 
 # Testing 
 
-   1. Browse to the load balancer public IP or **http://(prefix).westus2.cloudapp.azure.com/**.
-   2. You will see the IIS server default page showing either Web Server 01 or 02.
-   3. If you see Web Server 01, then RDP into VM1, stop the Default Web Site in IIS. Refresh the web page, you will see Web Server 02. The Load balancer detects VM1 is down and redirects traffic to VM2.
+ 1. Browse to the load balancer public IP or **http://(prefix).westus2.cloudapp.azure.com/**.
+ 2. You will see the IIS server default page showing either Web Server 01 or 02.
+ 3. If you see Web Server 01, then RDP into VM1, stop the Default Web Site in IIS. Refresh the web page, you will see Web Server 02. The Load balancer detects VM1 is down and redirects traffic to VM2.
 
-   ![Screenshot](media/website-on-iaas-http/poc-28.png)
+ ![Screenshot](media/website-on-iaas-http/poc-28.png)
 
 
 # Automation Scripts (ARM Template)
 
-   1. From the left panel on the Azure Portal, select **Resource Groups**.
-   2. Select **(prefix)-poc-rg**.
-   3. Under Settings, click **Download** | **Save As** | (select location).
+ 1. From the left panel on the Azure Portal, select **Resource Groups**.
+ 2. Select **(prefix)-poc-rg**.
+ 3. Under Settings, click **Download** | **Save As** | (select location).
 
-   ![Screenshot](media/website-on-iaas-http/poc-29.png)
+ ![Screenshot](media/website-on-iaas-http/poc-29.png)
 
-   4. After download, **Extract All** to (select location).
+ 4. After download, **Extract All** to (select location).
 
-   ![Screenshot](media/website-on-iaas-http/poc-30.png)
+ ![Screenshot](media/website-on-iaas-http/poc-30.png)
 
 
 # Visualize your Architecture with ArmViz
  
-   1. Open browser and goto **http://armviz.io** to view the template.
+ 1. Open browser and goto **http://armviz.io** to view the template.
 
-   ![Screenshot](media/website-on-iaas-http/armvizdiagram.png)
+ ![Screenshot](media/website-on-iaas-http/armvizdiagram.png)
 
