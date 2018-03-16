@@ -1,11 +1,10 @@
-# POC Scenario 1: Deploying Website on Azure IaaS VMs - HTTP
+# Walkthrough: Deploying Website on Azure IaaS VMs
 
 ## Table of Contents
-* [Abstract](#abstract)
+* [Introduction](#introduction)
 * [Learning objectives](#learning-objectives)
 * [Prerequisites](#prerequisites)
 * [Estimated time to complete this module](#estimated-time-to-complete-this-module)
-* [Scenario](#scenario)
 * [Customize your Azure Portal](#customize-your-azure-portal)
 * [Resource Group creation](#resource-group-creation)
 * [Virtual Network Creation](#virtual-network-creation)
@@ -21,12 +20,15 @@
 * [Visualize your Architecture with ArmViz](#visualize-your-architecture-with-armviz)
 
 
-# Abstract
+# Introduction
 
-During this module, you will learn about bringing together all the infrastructure components to build a sample application and making it scalable, highly available and secure.
+This walkthrough will show you how to bring together all the infrastructure components to build a sample application and making it scalable, highly available and secure.
+
+![Screenshot](media/website-on-iaas-http/poc-iaas-scenario-01.png)
+
 
 # Learning objectives
-After completing the exercises in this module, you will be able to:
+After completing the exercises in this walkthrough, you will be able to:
 * Create a Resource Group
 * Create a Virtual Network
 * Create multiple virtual machines
@@ -36,17 +38,14 @@ After completing the exercises in this module, you will be able to:
 * Deploy a website
 
 # Prerequisites 
+* Be familiar with the fundamentals of Azure Networking
 * Be familiar with the fundamentals of Azure Storage
 * Be familiar with the fundamentals of Azure Compute
+* Review [Reference Resources](iaas-fundamentals-reference-resources.md) if nedded.
 
 # Estimated time to complete this module
 Self-guided
 
-# Scenario
-
-## Deploying Website on Azure IaaS VMs
-
-![Screenshot](media/website-on-iaas-http/poc-iaas-scenario-01.png)
 
 # Customize your Azure Portal
 * Launch [Azure Portal](https://portal.azure.com/)
@@ -57,6 +56,7 @@ Self-guided
 * Find and Pin, **Network security groups**
 
    ![Screenshot](media/website-on-iaas-http/poc-1.png)
+
 
 # Resource Group creation
   > Note: For all **(prefix)** references, use a globally unique name to be used throughout this walkthrough.
