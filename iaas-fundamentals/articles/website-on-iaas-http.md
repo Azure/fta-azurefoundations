@@ -2,110 +2,110 @@
 
 ## Table of Contents
 
-   * [Introduction](#introduction)
-   * [Learning objectives](#learning-objectives)
-   * [Prerequisites](#prerequisites)
-   * [Estimated time to complete this module](#estimated-time-to-complete-this-module)
-   * [Customize your Azure Portal](#customize-your-azure-portal)
-   * [Resource Group creation](#resource-group-creation)
-   * [Virtual Network Creation](#virtual-network-creation)
-   * [Virtual Machine Creation](#virtual-machine-creation)
-   * [Install IIs on the VMs](#install-iis-on-the-vms)
-   * [Load Balancer Creation](#load-balancer-creation)
-   * [Add the VMs to Load Balancer](#add-the-vms-to-load-balancer)
-   * [Create the load balancing rule for HTTP](#create-the-load-balancing-rule-for-http)
-   * [Update the NSG (inbound security rule)](#update-the-nsg-inbound-security-rule)
-   * [Assign DNS name to Load Balancer](#assign-dns-name-to-load-balancer)
-   * [Testing](#testing)
-   * [Automation Scripts (ARM Template)](#automation-scripts-arm-template)
-   * [Visualize your Architecture with ArmViz](#visualize-your-architecture-with-armviz)
+  * [Introduction](#introduction)
+  * [Learning objectives](#learning-objectives)
+  * [Prerequisites](#prerequisites)
+  * [Estimated time to complete this module](#estimated-time-to-complete-this-module)
+  * [Customize your Azure Portal](#customize-your-azure-portal)
+  * [Resource Group creation](#resource-group-creation)
+  * [Virtual Network Creation](#virtual-network-creation)
+  * [Virtual Machine Creation](#virtual-machine-creation)
+  * [Install IIs on the VMs](#install-iis-on-the-vms)
+  * [Load Balancer Creation](#load-balancer-creation)
+  * [Add the VMs to Load Balancer](#add-the-vms-to-load-balancer)
+  * [Create the load balancing rule for HTTP](#create-the-load-balancing-rule-for-http)
+  * [Update the NSG (inbound security rule)](#update-the-nsg-inbound-security-rule)
+  * [Assign DNS name to Load Balancer](#assign-dns-name-to-load-balancer)
+  * [Testing](#testing)
+  * [Automation Scripts (ARM Template)](#automation-scripts-arm-template)
+  * [Visualize your Architecture with ArmViz](#visualize-your-architecture-with-armviz)
 
 
 # Introduction
 
-   This walkthrough will show you how to bring together all the infrastructure components to build a sample application and making it scalable, highly available and secure.
+  This walkthrough will show you how to bring together all the infrastructure components to build a sample application and making it scalable, highly available and secure.
 
-   ![Screenshot](media/website-on-iaas-http/poc-iaas-scenario-01.png)
+  ![Screenshot](media/website-on-iaas-http/poc-iaas-scenario-01.png)
 
 
 # Learning objectives
 
-   After completing the exercises in this walkthrough, you will be able to:
-   * Create a Resource Group
-   * Create a Virtual Network
-   * Create multiple virtual machines
-   * Create and setup a load balancer
-   * Create an availability set for VMs
-   * Update Network Security Groups(NSG)
-   * Deploy a website
+  After completing the exercises in this walkthrough, you will be able to:
+  * Create a Resource Group
+  * Create a Virtual Network
+  * Create multiple virtual machines
+  * Create and setup a load balancer
+  * Create an availability set for VMs
+  * Update Network Security Groups(NSG)
+  * Deploy a website
 
 
 # Prerequisites 
 
-   * Be familiar with the fundamentals of Azure Networking
-   * Be familiar with the fundamentals of Azure Storage
-   * Be familiar with the fundamentals of Azure Compute
-   * Review [Reference Resources](iaas-fundamentals-reference-resources.md) if nedded.
+  * Be familiar with the fundamentals of Azure Networking
+  * Be familiar with the fundamentals of Azure Storage
+  * Be familiar with the fundamentals of Azure Compute
+  * Review [Reference Resources](iaas-fundamentals-reference-resources.md) if nedded.
 
 
 # Estimated time to complete this module
 
-   Self-guided
+  Self-guided
 
 
 # Customize your Azure Portal
 
-   1. Launch [Azure Portal](https://portal.azure.com/).
-   2. On left most panel, scroll to bottom, then click **More Services**.
-   3. Find and Pin, **Virtual networks**.
-   4. Find and Pin, **Availability sets**.
-   5. Find and Pin, **Load balancers**.
-   6. Find and Pin, **Network security groups**.
+  1. Launch [Azure Portal](https://portal.azure.com/).
+  2. On left most panel, scroll to bottom, then click **More Services**.
+  3. Find and Pin, **Virtual networks**.
+  4. Find and Pin, **Availability sets**.
+  5. Find and Pin, **Load balancers**.
+  6. Find and Pin, **Network security groups**.
 
-      ![Screenshot](media/website-on-iaas-http/poc-1.png)
+  ![Screenshot](media/website-on-iaas-http/poc-1.png)
 
 
 # Resource Group creation
 
-   > Note: For all **(prefix)** references, use a globally unique name to be used throughout this walkthrough.
+  > Note: For all **(prefix)** references, use a globally unique name to be used throughout this walkthrough.
 
-   1. Create a Resource Group named **(prefix)-poc-rg**.
+  1. Create a Resource Group named **(prefix)-poc-rg**.
 
-      ![Screenshot](media/website-on-iaas-http/poc-2.png)
+  ![Screenshot](media/website-on-iaas-http/poc-2.png)
 
 
 # Virtual Network Creation
 
-   1. Create a VNET named **(prefix)-usw2-vnet**.
-   2. Create a Subnet named **(prefix)-web-snet**.
+  1. Create a VNET named **(prefix)-usw2-vnet**.
+  2. Create a Subnet named **(prefix)-web-snet**.
 
-      ![Screenshot](media/website-on-iaas-http/poc-3.png)
+  ![Screenshot](media/website-on-iaas-http/poc-3.png)
 
-   3. Create a Subnet named **(prefix)-app-snet**.
+  3. Create a Subnet named **(prefix)-app-snet**.
 
-      ![Screenshot](media/website-on-iaas-http/poc-4.png)
+  ![Screenshot](media/website-on-iaas-http/poc-4.png)
 
 
 # Virtual Machine Creation
 
-   1. Create 2 VMs with the following settings:
-      * Image from the marketplace: **Windows Server 2016 Datacenter**
-      * Names: **(prefix)-web01-vm** and **(prefix)-web02-vm**
-      * VM disk type: **HDD disk**
+  1. Create 2 VMs with the following settings:
+    * Image from the marketplace: **Windows Server 2016 Datacenter**
+    * Names: **(prefix)-web01-vm** and **(prefix)-web02-vm**
+    * VM disk type: **HDD disk**
 
-      ![Screenshot](media/website-on-iaas-http/poc-5.png)
+  ![Screenshot](media/website-on-iaas-http/poc-5.png)
 
-      * Size: **D1_V2**
-      * Availability Set: **(prefix)-web-as** (create it during the creation of the first VM)
-      * Storage / use managed disks: **Yes**
-      * Virtual Network: select the previously create Virtual Network 
-      * Subnet: select the previsouly created web subnet
+    * Size: **D1_V2**
+    * Availability Set: **(prefix)-web-as** (create it during the creation of the first VM)
+    * Storage / use managed disks: **Yes**
+    * Virtual Network: select the previously create Virtual Network 
+    * Subnet: select the previsouly created web subnet
 
-      ![Screenshot](media/website-on-iaas-http/poc-vm-settings-1.png)
+  ![Screenshot](media/website-on-iaas-http/poc-vm-settings-1.png)
 
-      * Create a Diagnostics Storage account named **(prefix)webdiag**.
+    * Create a Diagnostics Storage account named **(prefix)webdiag**.
 
-      ![Screenshot](media/website-on-iaas-http/poc-7.png)
+  ![Screenshot](media/website-on-iaas-http/poc-7.png)
 
 
 # Install IIs on the VMs
@@ -177,40 +177,40 @@
 
 # Load Balancer Creation
 
-   1. From the left panel on the Azure Portal, select **Load balancers**.
-   2. Click on **Add**.
-   3. Name: **(prefix)-web-lb**.
-   4. Click **Public IP Address**, click **New**.
-   5. Enter name **(prefix)-web-pip**, click **Ok**.
+  1. From the left panel on the Azure Portal, select **Load balancers**.
+  2. Click on **Add**.
+  3. Name: **(prefix)-web-lb**.
+  4. Click **Public IP Address**, click **New**.
+  5. Enter name **(prefix)-web-pip**, click **Ok**.
 
-     ![Screenshot](media/website-on-iaas-http/poc-15-dynamic.png)
+  ![Screenshot](media/website-on-iaas-http/poc-15-dynamic.png)
 
-   6. Select **Use Existing** for **Resource Group**, i.e. **(prefix)-poc-rg**, click **Create**.
+  6. Select **Use Existing** for **Resource Group**, i.e. **(prefix)-poc-rg**, click **Create**.
 
-     ![Screenshot](media/website-on-iaas-http/poc-16.png)
+  ![Screenshot](media/website-on-iaas-http/poc-16.png)
 
-   7. After the **Load Balancer** is created, select the one you added.
+  7. After the **Load Balancer** is created, select the one you added.
 
-     ![Screenshot](media/website-on-iaas-http/poc-17.png)
+  ![Screenshot](media/website-on-iaas-http/poc-17.png)
 
-   8. Under **Settings** select **Health probes**, click **Add**.
-   9. Enter name **(prefix)-web-prob**, leaving all the defaults, click **Ok**.
+  8. Under **Settings** select **Health probes**, click **Add**.
+  9. Enter name **(prefix)-web-prob**, leaving all the defaults, click **Ok**.
 
-      ![Screenshot](media/website-on-iaas-http/poc-18.png)
+  ![Screenshot](media/website-on-iaas-http/poc-18.png)
 
 
 # Add the VMs to Load Balancer
 
-   1. Under **Settings** select **Backend pools**, click **Add**.
-   2. Enter name **(prefix)-web-pool**.
-   3. For **Associated to**, select **Availability set**.
-   4. For the **Availability set**, select **(prefix)-web-as**.
-   5. Click **Add a target network IP configuration** to add the first web server and its IP address.
+  1. Under **Settings** select **Backend pools**, click **Add**.
+  2. Enter name **(prefix)-web-pool**.
+  3. For **Associated to**, select **Availability set**.
+  4. For the **Availability set**, select **(prefix)-web-as**.
+  5. Click **Add a target network IP configuration** to add the first web server and its IP address.
 
-      ![Screenshot](media/website-on-iaas-http/poc-19.png)
+  ![Screenshot](media/website-on-iaas-http/poc-19.png)
 
-   6. **Repeat** the step above to also add the IP configuration for the second web server.
-   7. Click **OK**.
+  6. **Repeat** the step above to also add the IP configuration for the second web server.
+  7. Click **OK**.
 
 
 # Create the load balancing rule for HTTP
