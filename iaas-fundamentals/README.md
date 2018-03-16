@@ -5,6 +5,8 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 
 # IaaS Fundamentals 
 
+## Reference Resources
+
 * [Reference Resources](articles/iaas-fundamentals-reference-resources.md)
     * [Azure Overview](articles/iaas-fundamentals-reference-resources.md#azure-overview)
     * [Core IaaS Services](articles/iaas-fundamentals-reference-resources.md#core-iaas-services)
@@ -16,8 +18,9 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
     * [Azure Planned Maintenance](articles/iaas-fundamentals-reference-resources.md#azure-planned-maintenance)
     * [Sovereign Clouds](articles/iaas-fundamentals-reference-resources.md#sovereign-clouds)
     
-* POC
-    * [POC Scenario 1: Deploying Website on Azure IaaS VMs - HTTP](articles/website-on-iaas-http.md)
-    * [POC Scenario 2: Deploying Website on Azure IaaS VMs - HTTPS](articles/website-on-iaas-https.md)
-    * [POC Scenario 3: Deploying Website on Azure IaaS VMs - HTTP - Red Hat Linux](articles/website-on-iaas-http-rhel.md)
+## Walkthroughs
+
+ * [Walkthrough: Deploying Website on Azure IaaS VMs](articles/website-on-iaas-http.md)
+ * [Walkthrough: Deploying Website on Azure IaaS VMs - adding HTTPS support](articles/website-on-iaas-https.md)
+ * [Walkthrough: Deploying Website on Azure IaaS VMs - using Red Hat Linux](articles/website-on-iaas-http-rhel.md)
 
