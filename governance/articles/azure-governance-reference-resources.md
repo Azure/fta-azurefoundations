@@ -62,6 +62,8 @@
 
 * [Azure Security Center frequently asked questions (FAQ)](https://docs.microsoft.com/en-us/azure/security-center/security-center-faq)
 
+* [Azure Security Center planning and operations guide](https://docs.microsoft.com/en-us/azure/security-center/security-center-planning-and-operations-guide)
+
 
 ## Azure Advisor
 
