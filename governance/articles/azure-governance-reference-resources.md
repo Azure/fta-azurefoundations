@@ -8,11 +8,13 @@
 
 * [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits)
 
-* [Azure Virtual Datacenter](https://azure.microsoft.com/en-us/resources/azure-virtual-datacenter/en-us/)
+* [Azure Virtual Datacenter and the Enterprise Control Plane](https://docs.microsoft.com/en-us/azure/architecture/vdc/)
 
 * [Don’t build your cloud home on shaky foundations](https://azure.microsoft.com/en-us/blog/don-t-build-your-cloud-home-on-shaky-foundations/)
 
 * [Microsoft IT Showcase - Expedition Cloud](https://www.microsoft.com/itshowcase/expedition-cloud)
+
+* [Microsoft Trust Center](https://www.microsoft.com/en-us/trustcenter)
 
 
 ## Naming Standards
