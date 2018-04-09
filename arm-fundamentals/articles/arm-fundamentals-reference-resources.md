@@ -4,7 +4,7 @@ If you have been through our ARM Fundamentals session, thank you! Please find be
 
 If you have not been through our session, why not consider getting in touch with your Program Manager or lead engineer, to determine if using ARM Templates is a fit for your project's aims?
 
-## Module 1 – ARM Template Fundamentals Overview
+## ARM Template Fundamentals Overview
 
 * [Understand the structure and syntax of Azure Resource Manager templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates)
 
@@ -29,7 +29,7 @@ If you have not been through our session, why not consider getting in touch with
 
         > Visual Studio is another option, and contains some built-in tooling in helping you create templates. The latest version of Visual Studio also has integration to leverage the Azure Quick start Templates.
 
-## Module 2 – Functions and Dependencies
+## Functions and Dependencies
 
 * [Azure Resource Manager template functions](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-functions)
 
@@ -44,7 +44,7 @@ If you have not been through our session, why not consider getting in touch with
     > When creating a template, you may need to include a child resource that is related to a parent resource. As an example, we used the scenario that a template may include a SQL server and a database. It is also worth highlighting the article on how to [Create multiple instances of a child resource](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-multiple#create-multiple-instances-of-a-child-resource).
 
 
-## Module 3 – Multiple Instances
+## Multiple Instances
 
 * [Deploy multiple instances of a resource or property in Azure Resource Manager templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-multiple)
 
@@ -55,14 +55,14 @@ If you have not been through our session, why not consider getting in touch with
     > Additionally, we also discussnote that you can depend resources on the completion of a loop.
 
 
-## Module 4 – Nested ARM Templates
+## Nested ARM Templates
 
 * [Using linked templates when deploying Azure resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-linked-templates)
 
     > This article walks you through the steps to deploy a linked template from a parent template. Remember that there are numerous approaches for deploying resources; deploying all resources into one resource group from one template, deploying resources into one resource group from multiple linked templates, deploying resources across multiple resources groups using multiple templates. You should determine the most appropriate to you, based upon the lifecycle and management boundaries of those resources.
 
 
-## Module 5 – Recommended Practices
+## Recommended Practices
 
 * [Best practices for creating Azure Resource Manager templates](https://docs.microsoft.com/en-gb/azure/azure-resource-manager/resource-group-authoring-templates)
 

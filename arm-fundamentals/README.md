@@ -8,8 +8,8 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 ## Reference Resources
 
 * [Reference Resources](articles/arm-fundamentals-reference-resources.md)
-    * [ARM Template Fundamentals Overview](articles/articles/arm-fundamentals-reference-resources.md#module-1–arm-templatefundamentals-overview)
-    * [Functions and Dependencies](articles/articles/arm-fundamentals-reference-resources.md#module-2–functions-and-dependencies)
-    * [Multiple Instances](articles/articles/arm-fundamentals-reference-resources.md#module-3–multiple-instances)
-    * [Nested ARM Templates](articles/articles/arm-fundamentals-reference-resources.md#module-4–nested-arm-templates)
-    * [Recommended Practices](articles/articles/arm-fundamentals-reference-resources.md#module-5-recommended-practices)
+    * [ARM Template Fundamentals Overview](articles/articles/arm-fundamentals-reference-resources.md#arm-template-fundamentals-overview)
+    * [Functions and Dependencies](articles/articles/arm-fundamentals-reference-resources.md#functions-and-dependencies)
+    * [Multiple Instances](articles/articles/arm-fundamentals-reference-resources.md#multiple-instances)
+    * [Nested ARM Templates](articles/articles/arm-fundamentals-reference-resources.md#nested-arm-templates)
+    * [Recommended Practices](articles/articles/arm-fundamentals-reference-resources.md#recommended-practices)
