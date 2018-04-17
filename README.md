@@ -5,6 +5,7 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 # Azure Fundamentals Scenarios
 
 * [IaaS Fundamentals](iaas-fundamentals/)
+* [CaaS Fundamentals](caas-fundamentals/)
 * [PaaS Fundamentals](paas-fundamentals/)
 * [ARM Fundamentals](arm-fundamentals/)
 * [Governance](governance/)
