@@ -1,10 +1,10 @@
-# Azure Resource Manager (ARM) Fundamentals - Reference Resources
+# Azure Resource Manager (ARM) Foundations - Reference Resources
 
-If you have been through our ARM Fundamentals session, thank you! Please find below some extra documentation and articles which may be useful when designing your ARM Templates.
+If you have been through our ARM Foundations session, thank you! Please find below some extra documentation and articles which may be useful when designing your ARM Templates.
 
 If you have not been through our session, why not consider getting in touch with your Program Manager or lead engineer, to determine if using ARM Templates is a fit for your project's aims?
 
-## ARM Template Fundamentals Overview
+## ARM Template Foundations Overview
 
 * [Understand the structure and syntax of Azure Resource Manager templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates)
 

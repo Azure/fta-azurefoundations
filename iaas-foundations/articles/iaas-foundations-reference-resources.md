@@ -1,4 +1,4 @@
-# IaaS Fundamentals - Reference Resources
+# IaaS Foundations - Reference Resources
 
 * [Azure Public Website](https://azure.microsoft.com)
 * [Azure Portal](https://portal.azure.com)

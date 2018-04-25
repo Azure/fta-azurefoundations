@@ -43,8 +43,8 @@ After completing the exercises in this module, you will be able to:
 * Deploy a website in Linux
 
 # Prerequisites 
-* Be familiar with the fundamentals of Azure Storage
-* Be familiar with the fundamentals of Azure Compute
+* Be familiar with the foundations of Azure Storage
+* Be familiar with the foundations of Azure Compute
 
 # Estimated time to complete this module
 1.5 hours

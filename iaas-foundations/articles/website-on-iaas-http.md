@@ -42,10 +42,10 @@ After completing the exercises in this walkthrough, you will be able to:
 
 # Prerequisites 
 
-* Be familiar with the fundamentals of Azure Networking
-* Be familiar with the fundamentals of Azure Storage
-* Be familiar with the fundamentals of Azure Compute
-* Review [Reference Resources](iaas-fundamentals-reference-resources.md) if nedded.
+* Be familiar with the foundations of Azure Networking
+* Be familiar with the foundations of Azure Storage
+* Be familiar with the foundations of Azure Compute
+* Review [Reference Resources](iaas-foundations-reference-resources.md) if nedded.
 
 
 # Estimated time to complete this module
