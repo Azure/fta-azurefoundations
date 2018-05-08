@@ -14,6 +14,8 @@
 
 * [Microsoft IT Showcase - Expedition Cloud](https://www.microsoft.com/itshowcase/expedition-cloud)
 
+* [Organizing subscriptions and resource groups within the Enterprise](https://azure.microsoft.com/en-us/blog/organizing-subscriptions-and-resource-groups-within-the-enterprise/)
+
 * [Microsoft Trust Center](https://www.microsoft.com/en-us/trustcenter)
 
 
