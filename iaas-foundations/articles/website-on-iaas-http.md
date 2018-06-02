@@ -136,7 +136,7 @@ Around 2/3 hours.
     * Source service tag: **Internet**
     * Source port ranges: **\***
     * Destination: **IP Addresses** 
-    * Destination IP addresses: **10.0.1.0/24** (management subnet)
+    * Destination IP addresses: **10.0.1.0/24** (web subnet)
     * Destination port ranges: **80**
     * Protocol: **TCP**
     * Action: **Allow**
@@ -313,7 +313,7 @@ For each of the web VMs do the following steps:
     * Name: **(prefix)-backendpool**
     * Associated to: select **Availability set**
     * Availability set: select web availability set previously created (e.g. **fta-iaas-web-as**)
-    * Target network IP configuration: select both web VMs previously created (e.g. **fta-iaas-web01** and **fta-iaas-web02**
+    * Target network IP configuration: select both web VMs previously created (e.g. **fta-iaas-web01** and **fta-iaas-web02**)
 
     ![Screenshot](media/website-on-iaas-http/poc-19.png)
 
