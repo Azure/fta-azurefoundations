@@ -70,6 +70,8 @@
 
 * [Azure Security Center planning and operations guide](https://docs.microsoft.com/en-us/azure/security-center/security-center-planning-and-operations-guide)
 
+* [Azure Security Center - channel 9 demo](https://channel9.msdn.com/Shows/Azure-Friday/Azure-Security-Center)
+
 
 ## Azure Advisor
 
