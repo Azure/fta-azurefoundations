@@ -64,6 +64,15 @@ If you have not been through our session, why not consider getting in touch with
 
 ## Recommended Practices
 
-* [Best practices for creating Azure Resource Manager templates](https://docs.microsoft.com/en-gb/azure/azure-resource-manager/resource-group-authoring-templates)
+* [Recommendations for Parameters](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-templates-parameters#recommendations)
 
-* [Design patterns for Azure Resource Manager templates when deploying complex solutions](https://docs.microsoft.com/en-us/azure/azure-resource-manager/best-practices-resource-manager-design-templates)
+* [Recommendations for Variables](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-templates-variables#recommendations)
+
+* [Recomendations for Resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-templates-resources#recommendations)
+
+* [Recommendations for Outputs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-templates-outputs#recommendations)
+
+* [Recommendations for setting dependencies](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-define-dependencies#recommendations-for-setting-dependencies)
+
+* [Use Azure Key Vault to pass secure parameter value during deployment](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-keyvault-parameter)
+* [Azure Resource Manager Templates - Best Practices Guide](https://github.com/Azure/azure-quickstart-templates/blob/master/1-CONTRIBUTION-GUIDE/best-practices.md)
