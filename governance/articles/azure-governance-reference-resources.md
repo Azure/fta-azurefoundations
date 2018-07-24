@@ -37,6 +37,8 @@
 
 * [Resource policy](https://docs.microsoft.com/en-us/azure/azure-policy/azure-policy-introduction) 
 
+* [Azure Policy samples](https://github.com/azure/azure-policy)
+
 * [Activity logs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-audit)
 
 
