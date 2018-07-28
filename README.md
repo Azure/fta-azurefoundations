@@ -8,7 +8,7 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 * [CaaS Foundations](caas-foundations/)
 * [PaaS Foundations](paas-foundations/)
 * [ARM Foundations](arm-foundations/)
-* [Governance](governance/)
+* Networking
  
 # Contributing
 
