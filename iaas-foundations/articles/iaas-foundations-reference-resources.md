@@ -4,7 +4,6 @@
 * [Azure Portal](https://portal.azure.com)
 
 
-
 ## Azure Overview
 
 * [What is cloud computing?](https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/)
@@ -32,7 +31,6 @@
 * [Azure Updates](https://azure.microsoft.com/en-gb/updates/)
 
 
-
 ## Core IaaS Services
 
 * Core IaaS Services
@@ -40,7 +38,6 @@
     * [Storage](https://docs.microsoft.com/en-us/azure/#pivot=products&panel=storage) > Disks, Blobs & Files
     * [Networking](https://docs.microsoft.com/en-us/azure/#pivot=products&panel=network) > Virtual Networks, VPN, Express Route, Load Balancer, DNS & Traffic Manager
     * Azure Reference Architecture for IaaS VM > [Windows](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/virtual-machines-windows/) or [Linux](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/virtual-machines-linux/)
-
 
 
 ## Resource Manager
@@ -100,12 +97,17 @@
 
 * [What do I need to think about before creating a VM?](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/overview#what-do-i-need-to-think-about-before-creating-a-vm)
 
-* [Regions and availability for virtual machines in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/regions-and-availability)
-
 * [Sizes virtual machines in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes)
 
-* [What are virtual machine scale sets in Azure?](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview)
+* [Regions and availability for virtual machines in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/regions-and-availability)
 
+* [What are Availability Zones in Azure?](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview) ([example of a scenario](https://azure.microsoft.com/en-us/solutions/architecture/build-high-availability-into-your-bcdr-strategy/))
+
+* Manage the availability of [Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manage-availability) and [Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/manage-availability) virtual machines
+
+* [Azure Resiliency](https://azure.microsoft.com/en-us/features/resiliency/)
+
+* [What are virtual machine scale sets in Azure?](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-overview)
 
 
 ## Networking
