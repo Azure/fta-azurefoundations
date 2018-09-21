@@ -5,8 +5,8 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 # Azure Foundations Scenarios
 
 * [IaaS Foundations](iaas-foundations/)
-* CaaS Foundations [//]:# (caas-foundations/)
-* PaaS Foundations [//]:# (paas-foundations/)
+* CaaS Foundations 
+* PaaS Foundations 
 * [ARM Foundations](arm-foundations/)
 * Networking
  
