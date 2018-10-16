@@ -55,7 +55,7 @@ If you have not been through our session, why not consider getting in touch with
     > Additionally, we also discussnote that you can depend resources on the completion of a loop.
 
 
-## Nested ARM Templates
+## Linked and Nested Templates
 
 * [Using linked templates when deploying Azure resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-linked-templates)
 
