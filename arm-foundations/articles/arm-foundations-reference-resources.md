@@ -24,6 +24,7 @@ If you have not been through our session, why not consider getting in touch with
     * [Use Visual Studio Code extension to create Azure Resource Manager template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-vscode-extension)
 
         > Visual Studio Code is a lightweight code editor that has an Azure Resource Manager extension that helps you in creating templates.
+        > There are [snippets available](https://github.com/Azure/azure-xplat-arm-tooling) to help make your editing experience easier in Visual Studio code.
     
     * [Creating and deploying Azure resource groups through Visual Studio](https://docs.microsoft.com/en-us/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy)
 
