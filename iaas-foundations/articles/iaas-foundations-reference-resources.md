@@ -114,6 +114,8 @@
 
 * [Azure networking](https://docs.microsoft.com/en-us/azure/networking/networking-overview)
 
+* [Find the networking product you need](https://azure.microsoft.com/en-us/product-categories/networking/)
+
 * [Azure Virtual Network](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
 
 * [Plan and design Azure Virtual Networks](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-vnet-plan-design-arm)
