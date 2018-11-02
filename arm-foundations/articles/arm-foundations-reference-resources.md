@@ -7,8 +7,9 @@ If you have not been through our session, why not consider getting in touch with
 ## ARM Template Foundations Overview
 
 * [Understand the structure and syntax of Azure Resource Manager templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates)
+* [ARM Template Reference](https://docs.microsoft.com/en-us/azure/templates/)
 
-    > Remember the key components of an Azure Resource Manager Template; Schema, Content Version, Parameters, Variables, Resources and Outputs. Remember that a Resource Group is a logical container and represents the lifecycle of a set of resources or is a management boundary for those resources.
+    > Remember the key components of an Azure Resource Manager Template; Schema, Content Version, Parameters, Variables, Resources and Outputs. Remember that a Resource Group is a logical container and represents the lifecycle of a set of resources or is a management boundary for those resources. Also use the ARM Template Reference page to identify the properties available for the resources that you wish to deploy.
     
 * [Azure Quickstart Templates](https://github.com/azure/azure-quickstart-templates)
 * [Deploy resources with Resource Manager templates and Azure PowerShell](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-deploy#incremental-and-complete-deployments)
