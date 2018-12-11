@@ -22,8 +22,6 @@
 * [Products available by region](https://azure.microsoft.com/en-us/regions/)
 * [Azure datacenters](https://azure.microsoft.com/en-us/overview/datacenters/)
 * [Find which Azure region is right for you](https://azure.microsoft.com/en-us/overview/datacenters/how-to-choose/)
-* [What are paired regions?](https://docs.microsoft.com/en-us/azure/best-practices-availability-paired-regions#what-are-paired-regions)
-* [Benefits of paired regions](https://docs.microsoft.com/en-us/azure/best-practices-availability-paired-regions#benefits-of-paired-regions)
 * [Azure services](https://docs.microsoft.com/en-us/azure/#pivot=products&panel=all) 
 
 * [Azure Status](https://azure.microsoft.com/en-us/status/)
