@@ -118,6 +118,12 @@
 
 * [Plan and design Azure Virtual Networks](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-vnet-plan-design-arm)
 
+* [When to use the Hub and Spoke Model](articles/hubandspoke_pros_and_cons.md)
+
+* [Virtual network peering](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview)
+
+* [Network Appliances](https://azure.microsoft.com/en-us/solutions/network-appliances/)
+
 * [IP address types and allocation methods in Azure](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-ip-addresses-overview-arm)
 
 * [Filter network traffic with Network Security Groups](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-nsg)
@@ -125,10 +131,6 @@
 * [Different types of Load Balancers](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-introduction#load-balancer-differences)
 
 * [Connecting your on-premises network to Azure](https://docs.microsoft.com/en-us/azure/guidance/guidance-connecting-your-on-premises-network-to-azure)
-
-* [Virtual network peering](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview)
-
-* [Network Appliances](https://azure.microsoft.com/en-us/solutions/network-appliances/)
 
 
 
