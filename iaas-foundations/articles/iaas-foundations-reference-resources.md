@@ -118,7 +118,7 @@
 
 * [Plan and design Azure Virtual Networks](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-vnet-plan-design-arm)
 
-* [When to use the Hub and Spoke Model](articles/hubandspoke_pros_and_cons.md)
+* [When to use the Hub and Spoke Model](hubandspoke_pros_and_cons.md)
 
 * [Virtual network peering](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview)
 
