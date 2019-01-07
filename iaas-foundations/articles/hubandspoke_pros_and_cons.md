@@ -1,11 +1,12 @@
 # When is Hub and Spoke the right model?
 
-The Hub and Spoke model relies on VNET peering as a way to offer connectivity to (typically) multiple “spokes” and one central “hub”. Typically this design has its root in the subscription design where different teams might get a dedicated subscription for them to manage resources in.
+The Hub and Spoke model relies on VNET peering as a way to offer connectivity to (typically) multiple "spokes" and one central "hub". Typically this design has its root in the subscription design where different teams might get a dedicated subscription for them to manage resources in.
 
 You can find more information about this design in the [Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/hub-spoke)
 
 This model has some advantages:
 
+* An obvious limitation of having a single Vnet is that that Vnet would be in a single subscription and region. In other words, the Hub & Spoke model can be better for multi-subscription or multi-region deployments
 * VNET peering is non transitive: this means spokes cannot communicate with each other: which can be seen as a way to isolate spokes from each other. In a single VNET model you’d be isolating workloads from each other through the use of NSGs or NVA’s (network virtual appliance).
 * VNET peering allows VNETs in different subscription to be connected, for example to a central hub, allowing the different components to communicate with each other as well as share certain services like domain controllers or appliances without having to run them in each spoke.
 * The Hub and spoke model allows to overcome some of the [limits from  a single VNET](https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits#networking-limits-1 )
