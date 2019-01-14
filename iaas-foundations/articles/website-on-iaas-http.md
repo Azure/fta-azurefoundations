@@ -183,7 +183,7 @@ Around 2/3 hours.
         * Availability Set: create new > **(prefix)-mgmt-as**
         * Storage / use managed disks: **Yes**
         * Virtual Network: select the one previously create Virtual Network (e.g. **fta-iaas-neu-vnet**)
-        * Subnet: select the web subnet previsouly created (e.g. **fta-iaas-web-subnet**)
+        * Subnet: select the web subnet previsouly created (e.g. **fta-iaas-mgmt-subnet**)
         * Public IP address: create new > **(prefix)-mgmt01-ip**
         * Network Security Group: **None**
         * Diagnostics Storage account: select the storage account previously created (e.g. **ftaiaasdiagstg01**)
