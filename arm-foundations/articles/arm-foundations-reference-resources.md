@@ -66,15 +66,6 @@ If you have not been through our session, why not consider getting in touch with
 
 ## Recommended Practices
 
-* [Recommendations for Parameters](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-templates-parameters#recommendations)
-
-* [Recommendations for Variables](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-templates-variables#recommendations)
-
-* [Recomendations for Resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-templates-resources#recommendations)
-
-* [Recommendations for Outputs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-templates-outputs#recommendations)
-
-* [Recommendations for setting dependencies](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-define-dependencies#recommendations-for-setting-dependencies)
-
+* [Azure Resource Manager template best practices](https://docs.microsoft.com/en-us/azure/azure-resource-manager/template-best-practices)
 * [Use Azure Key Vault to pass secure parameter value during deployment](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-keyvault-parameter)
 * [Azure Resource Manager Templates - Best Practices Guide](https://github.com/Azure/azure-quickstart-templates/blob/master/1-CONTRIBUTION-GUIDE/best-practices.md)
