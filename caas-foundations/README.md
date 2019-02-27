@@ -1,4 +1,5 @@
-# FastTrack for Azure
+
+| ------------- | ------------- | ------------- |# FastTrack for Azure
 
 See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackForAzure) for more information.
 
@@ -7,9 +8,18 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 [Containers as a service (CaaS)](https://www.techopedia.com/definition/32444/containers-as-a-service-caas) is a cloud service model that allows users to manage and deploy containers, applications and clusters through container-based virtualization. CaaS is highly useful to IT departments and developers in building secure and scalable containerized applications. With CaaS, this can be achieved using on-premises data centers or over the cloud. 
 
 ## Azure CaaS Service Offerings
-| Azure Service | Source format | Estimated time | Deliver from | Readiness Resources |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| Azure Container Instances (ACI) | PowerPoint & Demo | 1.5 h  | [Delivery Ready IP\Containers\FTA - Introduction to Docker Containers.pptx](https://microsoft.sharepoint.com/:p:/t/fasttrackforazure/CE/EcE3QclkNRxLooqQ6QIoyhMBNB36hFb3vRJ4CrfLJ5DmZw) | [Introduction to Docker Containers TTT](https://microsoft.sharepoint.com/:p:/t/fasttrackforazure/CE/ESqB_zqZpBZHvNxN7Prx2IEBrB8biGsu6wXEASTVMDYikw) | 
-| Azure Container Registry (ACR) | PowerPoint | 30 mins | [Delivery Ready IP\Containers\FTA-Introduction to Kubernetes.pptx](https://microsoft.sharepoint.com/:p:/t/fasttrackforazure/CE/ESqB_zqZpBZHvNxN7Prx2IEBrB8biGsu6wXEASTVMDYikw)
+| Azure Service | Azure Documentation | FTA Readiness Resource Page |
+| ------------- | ------------- | ------------- |
+| Azure Container Instances (ACI) | (https://azure.microsoft.com/en-us/services/container-instances/) | //ToDo  | 
+| Azure Web App for Containers | (https://docs.microsoft.com/en-us/azure/app-service/containers/) | //ToDo  | 
+| Azure Container Registry (ACR) | (https://docs.microsoft.com/en-us/azure/container-registry/) | //ToDo | 
+| Azure Kubernetes Service (AKS) | (https://docs.microsoft.com/en-us/azure/aks/) | //ToDo | 
+| Azure Service Fabric Containers | (https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-containers-overview) | //ToDo |
+| OpenShift Container Platform in Azure | (https://docs.microsoft.com/en-us/azure/virtual-machines/linux/openshift-container-platform) | //ToDo |
 
 ## Training Roadmap
+| Course | Audience | FTA Readiness Resource Page |
+| ------------- | ------------- | ------------- |
+| CaaS Foundations | All | //ToDo  |
+| CaaS Infrastructure | Infrastructure Engineers | //ToDo  |
+| CaaS Developer | Developer Engineers | //ToDo  |
