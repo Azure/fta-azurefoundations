@@ -24,5 +24,4 @@ This page is to provide all the details surrounding AKS. //WIP
 | ------------- | ------------- | ------------- | ------------- |
 | Istio | | https://istio.io/docs/concepts/what-is-istio/ | //WIP |
 | Consul | A distributed service networking layer to connect, secure and configure applications across dynamic, distributed infrastructure. | https://www.consul.io/docs/ | //WIP |
-| Linkerd | Linkerd gives you observability, reliability, and security for your
-microservices — with no code change required. |  https://linkerd.io/  | //WIP |
+| Linkerd | Linkerd gives you observability, reliability, and security for your microservices - with no code change required. |  https://linkerd.io/  | //WIP |
