@@ -1,6 +1,4 @@
 
-| ------------- | ------------- | ------------- |# FastTrack for Azure
-
 See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackForAzure) for more information.
 
 
@@ -10,7 +8,7 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 ## Azure CaaS Service Offerings
 | Azure Service | Azure Documentation | FTA Readiness Resource Page |
 | ------------- | ------------- | ------------- |
-| Azure Container Instances (ACI) | (https://azure.microsoft.com/en-us/services/container-instances/) | //ToDo  | 
+| Azure Container Instances (ACI) | [https://azure.microsoft.com/en-us/services/container-instances/] | //ToDo  | 
 | Azure Web App for Containers | (https://docs.microsoft.com/en-us/azure/app-service/containers/) | //ToDo  | 
 | Azure Container Registry (ACR) | (https://docs.microsoft.com/en-us/azure/container-registry/) | //ToDo | 
 | Azure Kubernetes Service (AKS) | (https://docs.microsoft.com/en-us/azure/aks/) | //ToDo | 
