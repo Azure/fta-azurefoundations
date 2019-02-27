@@ -30,4 +30,9 @@ GlusterFS | gluster-kubernetes is a project to provide Kubernetes administrators
 | Consul | A distributed service networking layer to connect, secure and configure applications across dynamic, distributed infrastructure. | https://www.consul.io/docs/ | //WIP |
 | Linkerd | Linkerd gives you observability, reliability, and security for your microservices - with no code change required. |  https://linkerd.io/  | //WIP |
 
+## Monitoring
+| Product | Scenario | Documentation | FTA Readiness Resource Page |
+| Azure Monitor | | |
+| Prometheus | | | 
+
 ## Security
