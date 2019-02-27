@@ -32,6 +32,7 @@ GlusterFS | gluster-kubernetes is a project to provide Kubernetes administrators
 
 ## Monitoring
 | Product | Scenario | Documentation | FTA Readiness Resource Page |
+| ------------- | ------------- | ------------- | ------------- |
 | Azure Monitor | | |
 | Prometheus | | | 
 
