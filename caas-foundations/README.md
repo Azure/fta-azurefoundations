@@ -11,7 +11,7 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 | Azure Container Instances (ACI) | https://azure.microsoft.com/en-us/services/container-instances/ | //ToDo  | 
 | Azure Web App for Containers | https://docs.microsoft.com/en-us/azure/app-service/containers/ | //ToDo  | 
 | Azure Container Registry (ACR) | https://docs.microsoft.com/en-us/azure/container-registry/ | //ToDo | 
-| Azure Kubernetes Service (AKS) | https://docs.microsoft.com/en-us/azure/aks/ | //ToDo | 
+| Azure Kubernetes Service (AKS) | https://docs.microsoft.com/en-us/azure/aks/ | https://github.com/Azure/fta-azurefoundations/blob/master/caas-foundations/fta-aks-resources.md | 
 | Azure Service Fabric Containers | https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-containers-overview | //ToDo |
 | OpenShift Container Platform in Azure | https://docs.microsoft.com/en-us/azure/virtual-machines/linux/openshift-container-platform | //ToDo |
 
