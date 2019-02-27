@@ -14,3 +14,7 @@ This page is to provide all the details surrounding AKS. //WIP
 | Product | Documentation | FTA Readiness Resource Page |
 | ------------- | ------------- | ------------- |
 
+## Service Mesh
+| Product | Documentation | FTA Readiness Resource Page |
+| ------------- | ------------- | ------------- |
+
