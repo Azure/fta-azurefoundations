@@ -3,18 +3,19 @@
 This page is to provide all the details surrounding AKS. //WIP
 
 ## Networking Solutions
-| Product | Documentation | FTA Readiness Resource Page |
+| Product | Overview | Documentation | FTA Readiness Resource Page |
 | ------------- | ------------- | ------------- |
+| AKS Network Policies | When you run modern, microservices-based applications in Kubernetes, you often want to control which components can communicate with each other | https://docs.microsoft.com/en-us/azure/aks/use-network-policies  |
 
 ## Ingress Solutions
-| Product | Documentation | FTA Readiness Resource Page |
+| Product | Overview | Documentation | FTA Readiness Resource Page |
 | ------------- | ------------- | ------------- |
 
 ## Storage Solutions
-| Product | Documentation | FTA Readiness Resource Page |
+| Product | Overview | Documentation | FTA Readiness Resource Page |
 | ------------- | ------------- | ------------- |
 
 ## Service Mesh
-| Product | Documentation | FTA Readiness Resource Page |
+| Product | Overview | Documentation | FTA Readiness Resource Page |
 | ------------- | ------------- | ------------- |
 
