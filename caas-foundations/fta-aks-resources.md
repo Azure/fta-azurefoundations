@@ -11,6 +11,8 @@ This page is to provide all the details surrounding AKS. //WIP
 | Product | Scenario | Documentation | FTA Readiness Resource Page |
 | ------------- | ------------- | ------------- | ------------- |
 | AKS App Gateway Ingress Controller | The Application Gateway Ingress Controller allows the Azure Application Gateway to be used as the ingress for an AKS cluster | https://github.com/Azure/application-gateway-kubernetes-ingress | //WIP |
+| Azure Traffic Manager | Azure Traffic Manager is a DNS-based traffic load balancer that enables you to distribute traffic optimally to services across global Azure regions, while providing high availability and responsiveness. | https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-configure-geographic-routing-method | //WIP |
+| Azure Front Door (preview) | Azure Front Door provides an HTTP/HTTPS (layer 7) routing option. Additional features of Front Door include SSL termination, custom domain, Web Application Firewall, URL Rewrite, and Session Affinity. | https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview | //WIP |
 | Envoy Proxy | Envoy is an L7 proxy and communication bus designed for large modern service oriented architectures | https://www.envoyproxy.io/docs/envoy/latest/intro/intro | //WIP |
 
 
