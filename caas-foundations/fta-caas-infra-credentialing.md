@@ -100,5 +100,22 @@ When you feel that you are familiar and comfortable with the credentialing topic
 - Know how to configure the Kubernetes scheduler
 
 #### Logging and Monitoring
+- Understand how to monitor all cluster components
+  - https://docs.microsoft.com/en-us/azure/azure-monitor/insights/container-insights-overview
+- Understand how to monitor applications
+- Manage cluster component logs
+  - https://docs.microsoft.com/en-us/azure/aks/view-master-logs
+- Manage application logs
+
+#### Application Lifecycle Management
+- Understand Deployments and how to perform rolling updates and rollbacks
+  - https://docs.microsoft.com/en-us/azure/aks/tutorial-kubernetes-deploy-application#deploy-the-application
+- Know various ways to configure applications
+- Know how to scale applications
+  - https://docs.microsoft.com/en-us/azure/aks/tutorial-kubernetes-scale
+- Understand the primitives necessary to create a self-healing application
+
+#### Security
+
 
 
