@@ -51,9 +51,9 @@ When you feel that you are familiar and comfortable with the credentialing topic
   - https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-storage#secure-and-back-up-your-data
   
 #### Networking
-   -- https://docs.microsoft.com/en-us/azure/aks/concepts-network
-   -- https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-network
-   -- https://docs.microsoft.com/en-us/azure/aks/use-network-policies
+   - https://docs.microsoft.com/en-us/azure/aks/concepts-network
+   - https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-network
+   - https://docs.microsoft.com/en-us/azure/aks/use-network-policies
 
 - Understand the networking configuration on the cluster nodes
 - Understand Pod networking concepts
