@@ -15,7 +15,7 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 | Azure Service Fabric Containers | https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-containers-overview | //ToDo |
 | OpenShift Container Platform in Azure | https://docs.microsoft.com/en-us/azure/virtual-machines/linux/openshift-container-platform | //ToDo |
 
-## Training Roadmap
+## Training and Credentialing Roadmap
 | Course | Audience | FTA Readiness Resource Page |
 | ------------- | ------------- | ------------- |
 | CaaS Foundations | All | //ToDo  |
