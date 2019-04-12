@@ -26,8 +26,8 @@ When you feel that you are familiar and comfortable with the credentialing topic
 
 - Design a Kubernetes cluster
   - https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/microservices/aks
-- ~~Install Kubernetes master and nodes
-- ~~Configure secure cluster communications
+- ~~Install Kubernetes master and nodes~~
+- ~~Configure secure cluster communications~~
 - Configure a Highly-Available Kubernetes cluster
   - https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-multi-region
 - ~~Know where to get the Kubernetes release binaries
