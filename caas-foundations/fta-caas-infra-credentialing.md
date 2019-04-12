@@ -24,4 +24,4 @@ When you feel that you are familiar and comfortable with the credentialing topic
 
 #### Installation, Configuration, & Validation
 - Design a Kubernetes cluster
- -- https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/microservices/aks
+  - https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/microservices/aks
