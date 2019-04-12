@@ -10,4 +10,11 @@ You can view the curriculum for the CKA exam [here](https://github.com/cncf/curr
 Similar to the CKA exam, the credentialing process for CaaS Infrastructure will be partially performance based. This means the facilitator will ask questions to the engineer on how to accomplish a task and the engineer will actively work through the task either through the portal, CLI, or both. Due to the fact that this credentialing process is partially performance based, this means that the credentialing appointment will need both participants available to attend a screen share. 
 
 ### Credentialing Session Requirements
+When you feel that you are familiar and comfortable with the credentialing topics and curriculum, please feel free to contact the service lead to schedule your credentialing session. Please also make sure the following requirments have been met.
 
+- Familiarize yourself with the credentialing curriculum topics
+- Identify one of the service leads to conduct the credentialing session
+- Ensure you have a running 3-node AKS cluster (RBAC enabled) available to work on during the session
+- Ensure you have an Azure Container Registry that can access the AKS cluster
+- Ensure you have the Azure Monitor Container Insights solution deployed to AKS cluster
+- Ensure you have 1 hour scheduled of uninteruptable time dedicated to schedule the session
