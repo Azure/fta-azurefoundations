@@ -144,10 +144,14 @@ https://github.com/Azure/aks-engine
   - https://github.com/Azure/aks-engine/tree/master/docs/tutorials
 
 #### Azure Container Registry
-//WIP
+Azure Container Registry is a managed Docker registry service based on the open-source Docker Registry 2.0. Create and maintain Azure container registries to store and manage your private Docker container images.
+
+https://docs.microsoft.com/en-us/azure/container-registry/container-registry-intro
 
 #### Azure Container Instances
-//WIP
+Azure Container Instances is a great solution for any scenario that can operate in isolated containers, including simple applications, task automation, and build jobs. For scenarios where you need full container orchestration, including service discovery across multiple containers, automatic scaling, and coordinated application upgrades, we recommend Azure Kubernetes Service (AKS).
+
+https://docs.microsoft.com/en-us/azure/container-instances/container-instances-overview
 
 #### Azure Kubernetes Service FAQ
 Please familiarize yourself with the AKS FAQ.
