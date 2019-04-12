@@ -30,8 +30,8 @@ When you feel that you are familiar and comfortable with the credentialing topic
 - ~~Configure secure cluster communications~~
 - Configure a Highly-Available Kubernetes cluster
   - https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-multi-region
-- ~~Know where to get the Kubernetes release binaries
-- ~~Provision underlying infrastructure to deploy a Kubernetes cluster
+- ~~Know where to get the Kubernetes release binaries~~
+- ~~Provision underlying infrastructure to deploy a Kubernetes cluster~~
 - Choose a network solution
   - https://docs.microsoft.com/en-us/azure/aks/configure-kubenet
   - https://docs.microsoft.com/en-us/azure/aks/configure-azure-cni
@@ -44,3 +44,29 @@ When you feel that you are familiar and comfortable with the credentialing topic
 #### Cluster
 - Understand Kubernetes cluster upgrade process
   - https://docs.microsoft.com/en-us/azure/aks/upgrade-cluster
+- Facilitate operating system upgrades
+  - https://docs.microsoft.com/en-us/azure/aks/node-updates-kured
+- Implement backup and restore methodologies
+  - https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-storage
+  - https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-storage#secure-and-back-up-your-data
+  
+#### Networking
+  - https://docs.microsoft.com/en-us/azure/aks/concepts-network
+  - https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-network
+  - https://docs.microsoft.com/en-us/azure/aks/use-network-policies
+
+- Understand the networking configuration on the cluster nodes
+- Understand Pod networking concepts
+- Understand service networking
+- Deploy and configure network load balancer
+  - https://docs.microsoft.com/en-us/azure/aks/internal-lb
+- Know how to use Ingress rules
+  - https://docs.microsoft.com/en-us/azure/aks/ingress-basic
+- Know how to configure and use the cluster DNS
+  - https://docs.microsoft.com/en-us/azure/aks/coredns-custom
+- Understand CNI
+  - https://docs.microsoft.com/en-us/azure/aks/configure-kubenet
+  - https://docs.microsoft.com/en-us/azure/aks/configure-azure-cni
+  
+  #### Storage
+  
