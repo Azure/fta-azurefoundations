@@ -19,5 +19,5 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 | Course | Audience | FTA Readiness Resource Page |
 | ------------- | ------------- | ------------- |
 | CaaS Foundations | All | New to Containers? Please work through our [Learning Path](https://github.com/Azure/fta-deliveryhowto/blob/master/articles/app-modernization/app-containerization.md#learning-plan) to help establish a solid understanding of the technology.   |
-| CaaS Infrastructure | Infrastructure Engineers | Prepare yourself to become CaaS Infrastructure credentialed //ToDo  |
-| CaaS Developer | Developer Engineers | //ToDo  | Prepare yourself to become CaaS Developer credentialed //ToDo
+| CaaS Infrastructure | Infrastructure Engineers | Prepare and become CaaS Infrastructure credentialed //ToDo  |
+| CaaS Developer | Developer Engineers | Prepare and become CaaS Developer credentialed //ToDo  |
