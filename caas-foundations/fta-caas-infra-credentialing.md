@@ -135,12 +135,22 @@ When you feel that you are familiar and comfortable with the credentialing topic
 - Troubleshoot worker node failure
 - Troubleshoot networking
 
+#### Azure AKS Engine
+AKS Engine provides convenient tooling to quickly bootstrap Kubernetes clusters on Azure. By leveraging ARM (Azure Resource Manager), AKS Engine helps you create, destroy and maintain clusters provisioned with basic IaaS resources in Azure. AKS Engine is also the library used by AKS for performing these operations to provide managed service implementations.
+
+https://github.com/Azure/aks-engine
+
+- AKS Engine Tutorial
+  - https://github.com/Azure/aks-engine/tree/master/docs/tutorials
+
 #### Azure Container Registry
 //WIP
 
 #### Azure Container Instances
 //WIP
 
-
+#### Azure Kubernetes Service FAQ
+Please familiarize yourself with the AKS FAQ.
+- https://docs.microsoft.com/en-us/azure/aks/faq
 
 
