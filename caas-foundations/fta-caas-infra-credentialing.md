@@ -18,3 +18,10 @@ When you feel that you are familiar and comfortable with the credentialing topic
 - Ensure you have an Azure Container Registry that can access the AKS cluster
 - Ensure you have the Azure Monitor Container Insights solution deployed to AKS cluster
 - Ensure you have **1 hour** scheduled of uninteruptable time dedicated to the credentialing session
+
+### Credentialing Curriculum
+
+
+#### Installation, Configuration, & Validation
+- Design a Kubernetes cluster
+..* https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/microservices/aks
