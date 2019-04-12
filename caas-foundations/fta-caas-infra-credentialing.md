@@ -23,5 +23,24 @@ When you feel that you are familiar and comfortable with the credentialing topic
 
 
 #### Installation, Configuration, & Validation
+
 - Design a Kubernetes cluster
   - https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/microservices/aks
+- ~~Install Kubernetes master and nodes
+- ~~Configure secure cluster communications
+- Configure a Highly-Available Kubernetes cluster
+  - https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-multi-region
+- ~~Know where to get the Kubernetes release binaries
+- ~~Provision underlying infrastructure to deploy a Kubernetes cluster
+- Choose a network solution
+  - https://docs.microsoft.com/en-us/azure/aks/configure-kubenet
+  - https://docs.microsoft.com/en-us/azure/aks/configure-azure-cni
+- Choose your Kubernetes infrastructure configuration
+- Run end-to-end test on your cluster
+- Analyze end-to-end tests results
+- Run Node end-to-end tests
+  - https://docs.microsoft.com/en-us/azure/aks/kube-advisor-tool?view=azure-cli-latest
+  
+#### Cluster
+- Understand Kubernetes cluster upgrade process
+  - https://docs.microsoft.com/en-us/azure/aks/upgrade-cluster
