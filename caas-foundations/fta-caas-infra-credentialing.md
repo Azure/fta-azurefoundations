@@ -69,4 +69,17 @@ When you feel that you are familiar and comfortable with the credentialing topic
   - https://docs.microsoft.com/en-us/azure/aks/configure-azure-cni
   
 #### Storage
-   * https://docs.microsoft.com/en-us/azure/aks/concepts-storage?view=azure-cli-latest 
+   - https://docs.microsoft.com/en-us/azure/aks/concepts-storage?view=azure-cli-latest 
+   - https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-storage?view=azure-cli-latest
+- Understand persistent volumes and know how to create them
+- Understand persistent volume claims primitive
+- Understand Kubernetes storage objects
+- Know how to configure applications with persistent storage
+
+#### Core Concepts
+- Understand the Kubernetes API primitives
+- Understand the Kubernetes cluster architecture
+  - https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads
+- Understand Services and other network primitives
+
+
