@@ -69,4 +69,4 @@ When you feel that you are familiar and comfortable with the credentialing topic
   - https://docs.microsoft.com/en-us/azure/aks/configure-azure-cni
   
 #### Storage
-  
+   * https://docs.microsoft.com/en-us/azure/aks/concepts-storage?view=azure-cli-latest 
