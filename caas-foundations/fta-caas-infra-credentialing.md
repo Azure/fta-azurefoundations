@@ -9,5 +9,5 @@ You can view the curriculum for the CKA exam [here](https://github.com/cncf/curr
 ## Credentialing Process
 Similar to the CKA exam, the credentialing process for CaaS Infrastructure will be partially performance based. This means the facilitator will ask questions to the engineer on how to accomplish a task and the engineer will actively work through the task either through the portal, CLI, or both. Due to the fact that this credentialing process is partially performance based, this means that the credentialing appointment will need both participants available to attend a screen share. 
 
-### Credentialing Session Requirments
+### Credentialing Session Requirements
 
