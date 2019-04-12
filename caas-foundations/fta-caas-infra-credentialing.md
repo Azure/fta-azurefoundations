@@ -128,6 +128,19 @@ When you feel that you are familiar and comfortable with the credentialing topic
 - Define security contexts
 - Secure persistent key value store
 
+#### Troubleshooting
+- https://docs.microsoft.com/en-us/azure/aks/troubleshooting
+- Troubleshoot application failure
+- Troubleshoot control plane failure
+- Troubleshoot worker node failure
+- Troubleshoot networking
+
+#### Azure Container Registry
+//WIP
+
+#### Azure Container Instances
+//WIP
+
 
 
 
