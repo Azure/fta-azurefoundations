@@ -4,6 +4,8 @@ The credentialing process for FastTrack Engineers looking to pursue the CaaS inf
 
 You can view the curriculum for the CKA exam [here](https://github.com/cncf/curriculum).
 
+The goal of the CaaS Infrastructure Credentialing is to quickly verify and/or identify areas of growth to focus your development. The Service leads want to ensure there is a consistent credentialing experience that ensures the engineer can confidently deliver Container engagements.
+
 > **PLEASE NOTE: In no way is the CaaS Infrastructure credentialing process associated with the Cloud Native Computing Foundation's Certified Kubernetes Administrator's exam. Those who have taken CNCF exams are under strict NDA guidelines that prohibit any tester from sharing details about the exam. The alignment to the certification curriculum is only used as a guide for skills nececessary to support FTA engagements. Also, the FastTrack for Azure service leads makes no claim that aquiring the Caas Infrastructure credential provides the ability to pass the CKA exam.** 
 
 ## Credentialing Process
