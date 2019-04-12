@@ -82,4 +82,23 @@ When you feel that you are familiar and comfortable with the credentialing topic
   - https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads
 - Understand Services and other network primitives
 
+#### Scheduling
+   - https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-scheduler
+   - https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-advanced-scheduler
+- Use label selectors to schedule Pods
+  - https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
+- Understand the role of DaemonSets
+  - https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/
+- Understand how resource limits can affect Pod scheduling
+  - https://kubernetes.io/docs/concepts/policy/resource-quotas/
+  - https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/
+  - https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/
+- Understand how to run multiple schedulers and how to configure Pods to use them
+  - https://kubernetes.io/docs/tasks/administer-cluster/configure-multiple-schedulers/
+- Manually schedule a pod without a scheduler
+- Display scheduler events
+- Know how to configure the Kubernetes scheduler
+
+#### Logging and Monitoring
+
 
