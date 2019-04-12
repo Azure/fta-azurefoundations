@@ -18,7 +18,7 @@ When you feel that you are familiar and comfortable with the credentialing topic
 - Identify one of the service leads to conduct the credentialing session
 - Ensure you have a running 3-node AKS cluster (RBAC enabled) available to work on during the session
 - Ensure you have an Azure Container Registry that can access the AKS cluster
-- Ensure you have the Azure Monitor Container Insights solution deployed to AKS cluster
+- Ensure you have the Azure Monitor Container Insights solution deployed to the AKS cluster
 - Ensure you have an Azure Container Instance service deployed
 - Ensure you have **1 hour** scheduled of uninteruptable time dedicated to the credentialing session
 
