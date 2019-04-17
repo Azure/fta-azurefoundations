@@ -4,7 +4,7 @@
 
 
 
-## Containers Foundation Learning Plan
+## Containers Foundation Learning Path
 | Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
 | 100   | Docker   Overview                                                              | https://docs.docker.com/engine/docker-overview/                                                            |        | Online Reading |                | 5/02/2019  |
@@ -27,5 +27,6 @@
 | 400   | Deploy a Docker/Go   web app in Web App for Containers                         | https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-docker-go                         |        | Online Reading |                | 5/02/2019  |
 | 400   | Run a custom Windows   container in Azure (Preview)                            | https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-windows-container           |        | Online Reading |                | 5/02/2019  |
 
+## Containers Foundation Learning Path
 
 | Kubernetes Learning Path | All |  https://azure.microsoft.com/en-us/resources/kubernetes-learning-path/  |
