@@ -3,6 +3,7 @@
 
 
 
+
 ## Learning Plan
 | Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
@@ -25,3 +26,6 @@
 | 300   | Run Docker Containers   with Azure Container Instances                         | https://docs.microsoft.com/en-us/learn/modules/run-docker-with-azure-container-instances/index             |        | Online Reading |                | 5/02/2019  |
 | 400   | Deploy a Docker/Go   web app in Web App for Containers                         | https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-docker-go                         |        | Online Reading |                | 5/02/2019  |
 | 400   | Run a custom Windows   container in Azure (Preview)                            | https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-windows-container           |        | Online Reading |                | 5/02/2019  |
+
+
+| Kubernetes Learning Path | All |  https://azure.microsoft.com/en-us/resources/kubernetes-learning-path/  |
