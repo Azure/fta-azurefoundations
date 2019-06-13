@@ -120,7 +120,10 @@ There are several options available to monitor a Kubernetes cluster. For AKS, Az
 * **AWARENESS**: Prometheus is a popular open-source monitoring solution that is frequently used to monitor Kubernetes clusters. Customers can find more information on Prometheus [here](https://prometheus.io/docs/introduction/overview/). A Prometheus AKS walkthrough is being discussed as IP for FTA.
 
 ## Business Continuity and Disaster Recovery
+There are several considerations and architectural approaches for achieving a highly available for the AKS cluster. 
 
+
+Velero (formally known as Heptio ARK) is a open-source backup and restore solution for Kubernetes cluster. More information on Velero can be found on their GitHub repository [here](https://prometheus.io/docs/introduction/overview/). 
 
 
 
