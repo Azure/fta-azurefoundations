@@ -33,9 +33,9 @@ When it comes to sizing the cluster, there are generally two key metrics to unde
 * Also be aware of the restricted VM SKUs for AKS Cluster nodes https://docs.microsoft.com/en-us/azure/aks/quotas-skus-regions#service-quotas-and-limits. This is due to the required Kubernetes pods needed to run the cluster
 
 There are also other topics that could affect the AKS cluster design:
-•	Multiple Node Pools - https://docs.microsoft.com/en-us/azure/aks/use-multiple-node-pools
-•	Cluster Autoscaler - https://docs.microsoft.com/en-us/azure/aks/use-multiple-node-pools
-•	Virtual Kubelet - https://docs.microsoft.com/en-us/azure/aks/virtual-kubelet
+* Multiple Node Pools - https://docs.microsoft.com/en-us/azure/aks/use-multiple-node-pools
+* Cluster Autoscaler - https://docs.microsoft.com/en-us/azure/aks/use-multiple-node-pools
+* Virtual Kubelet - https://docs.microsoft.com/en-us/azure/aks/virtual-kubelet
 
 ### Access and Identity & Cluster Isolation
 Like any other cloud service, access to the resources should be well thought out on which teams and/or individuals will have access to the AKS cluster and their level of abilities to do functions on the cluster. In addition to cluster access, customers may choose to also provide logical boundaries within the cluster to isolate workloads and make them only accessible by certain teams and/or individuals.
