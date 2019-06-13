@@ -7,6 +7,7 @@ If the customer is completely new to Kubernetes and the AKS service, it may make
 https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads
 
 > **SPEAKER NOTES**
+
 Some frequent questions asked about the AKS service are:
   1. What is the architecture of the master nodes?
-    * a.	Explain to the customer that AKS is a platform managed Kubernetes service and should be considered like all other PaaS services            on Azure. There are no specific hardware specification to share and the service will scale to the customer needs. 
+    a.	Explain to the customer that AKS is a platform managed Kubernetes service and should be considered like all other PaaS services            on Azure. There are no specific hardware specification to share and the service will scale to the customer needs. 
