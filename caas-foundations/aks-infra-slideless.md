@@ -76,6 +76,7 @@ For the POC deployment we will use the Azure portal deployment for AKS.
 > **GUIDE** [Walkthrough: Create an AKS Cluster](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal#create-an-aks-cluster) 
 
 > **SPEAKER NOTES**
+* Use the Advanced Networking option for deployment
 * Ensure a VNET subnet has been identified to install the AKS cluster nodes to
 * Ensure the customer deploying the AKS cluster has the ability to create a service principle in the AAD tenant. The service principle can be pre-created prior to the deployment. 
 * If using a pre-created service principle, ensure it has the Network Contributor role to the subnet the cluster will be deployed to
@@ -85,7 +86,7 @@ A typical deployment should take around 10 minutes. Deployments with durations b
 ## Operations
 Once the deployment has completed connect to the cluster and deploy out a few applications.
 
-//WIP
+> **GUIDE** [Walkthrough: Deploy the Azure Voteing Application to the AKS cluster](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal#run-the-application) 
 
 ## Monitoring
 
