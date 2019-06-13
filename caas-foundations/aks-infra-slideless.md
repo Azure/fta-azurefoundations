@@ -65,5 +65,33 @@ The following link use case s can help guide the discussion of  AKS storage need
 Storage classes defines the tiers of storage and the reclaim policy of the pod. 
 https://docs.microsoft.com/en-us/azure/aks/concepts-storage#storage-classes
 
+> **SPEAKER NOTES**
+* Currently Azure Files back storage is only available on the standard performance tier (HDDs)
+* Premium disks are recommended for all production workloads
+* BlobFuse can be used for a unstructured data solution https://github.com/Azure/azure-storage-fuse
+
+## Deployment
+For the POC deployment we will use the Azure portal deployment for AKS found here https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal. 
+
+> **SPEAKER NOTES**
+* Ensure a VNET subnet has been identified to install the AKS cluster nodes to
+* Ensure the customer deploying the AKS cluster has the ability to create a service principle in the AAD tenant. The service principle can be pre-created prior to the deployment. 
+* If using a pre-created service principle, ensure it has the Network Contributor role to the subnet the cluster will be deployed to
+
+A typical deployment should take around 10 minutes. Deployments with durations beyond 15 minutes are likely to fail. Please check the deployment messages to figure out any issues. Most common failed deployments issues involve a service principle without the correct delegated permissions, blocked internet outbound access to the agent nodes (this is due to Kubernetes infrastructure pods being pulled from internet repositories, and Azure Policies limiting deployments of VM SKUs and creation of load balancer and IPs.
+
+## Operations
+Once the deployment has completed connect to the cluster and deploy out a few applications.
+
+//WIP
+
+## Monitoring
+
+//WIP
+
+## Business Continuity and Disaster Recovery
+
+//WIP
+
 
 
