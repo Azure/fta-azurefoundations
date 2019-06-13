@@ -21,3 +21,11 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 | CaaS Foundations | All | New to Containers and all of the CaaS services offered by Azure? Please work through our [Learning Path](https://github.com/Azure/fta-azurefoundations/blob/master/caas-foundations/fta-caas-learning.md) to help establish a solid understanding of the technology.   |
 | CaaS Infrastructure | Infrastructure Engineers | Prepare and become CaaS Infrastructure credentialed [here](https://github.com/Azure/fta-azurefoundations/blob/master/caas-foundations/caas-infra-credentialing.md).  |
 | CaaS Developer | Developer Engineers | Prepare and become CaaS Developer credentialed //ToDo  |
+
+## Container Services Slideless Deliveries
+|                               | Source format     | Estimated time| Deliver from  | Readiness Resources |
+| -------------                 | -------------     | ------------- | ------------- | ------------- |
+| Engineers Overview            |                   |               |               | [Azure Monitor Overview][az-mon-overview-sl]|
+|                               | Slideless         | 90 minutes    | [Azure Monitoring Slideless][az-mon-sl]|[Azure Monitor Documentation][az-mon-docs]|
+|                               | Slideless         | 90 minutes    | [Application Insights Slideless][az-ai-sl]|[App Insights Overview Documentation][az-ai-docs]|
+|                               | Powerpoint         | 60-120 minutes    | [Log Analytics][az-la-ppt]|[Azure Monitor - Log Analytics Overview Documentation][az-la-docs]|
