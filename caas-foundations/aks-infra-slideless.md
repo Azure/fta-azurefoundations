@@ -117,7 +117,7 @@ There are several options available to monitor a Kubernetes cluster. For AKS, Az
 > **GUIDE** [Walkthrough: Setup Alerting for AKS](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/container-insights-alerts)
 
 > **SPEAKER NOTES**
-* AWARENESS: Prometheus is a popular open-source monitoring solution that is frequently used to monitor Kubernetes clusters. Customers can find more information on Prometheus [here](https://prometheus.io/docs/introduction/overview/). A Prometheus AKS walkthrough is being discussed as IP for FTA.
+* **AWARENESS**: Prometheus is a popular open-source monitoring solution that is frequently used to monitor Kubernetes clusters. Customers can find more information on Prometheus [here](https://prometheus.io/docs/introduction/overview/). A Prometheus AKS walkthrough is being discussed as IP for FTA.
 
 ## Business Continuity and Disaster Recovery
 
