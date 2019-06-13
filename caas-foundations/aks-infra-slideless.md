@@ -102,9 +102,14 @@ Often times a customer may want to expose thier application and/or API using a U
 
 
 ## Monitoring
+There are several options available to monitor a Kubernetes cluster. For AKS, Azure Monitor provides an integrated platform solution known as Container Insights. 
 
+### Azure Container Insights
+> **SHOW** [Azure Monitor Container Insights Overview](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/container-insights-overview)
 
 > **GUIDE** [Walkthrough: Enabling Azure Monitor Container Insights from AKS Cluster](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/container-insights-enable-existing-clusters#enable-directly-from-aks-cluster-in-the-portal)
+
+Once Container Insights is enabled, it may could take several minutes (up to and hour) for cluster data to start showing up in the dashboard. Analyzing the data with the customer may need an additional session. 
 
 
 
