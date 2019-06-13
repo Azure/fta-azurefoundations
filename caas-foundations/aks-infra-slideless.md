@@ -41,3 +41,29 @@ There are also other topics that could affect the AKS cluster design:
 Like any other cloud service, access to the resources should be well thought out on which teams and/or individuals will have access to the AKS cluster and their level of abilities to do functions on the cluster. In addition to cluster access, customers may choose to also provide logical boundaries within the cluster to isolate workloads and make them only accessible by certain teams and/or individuals.
 
 > **SPEAKER NOTES**
+* Kubernetes has an access concept of roles, clusters roles, and role bindings. These roles provide fine grain control of verb actions to the cluster API https://kubernetes.io/docs/reference/access-authn-authz/rbac/
+* AKS can take advantage of Kubernetes cluster role with Azure AD Integration allowing customers to utilize user and/or group identities in Azure AD for access to the AKS cluster. https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-identity
+* The use of Kubernetes Namespaces can be used to further logically separate access to the AKS cluster by only allowing roles to access particular Namespaces. https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-cluster-isolation
+
+### Networking Considerations
+There are two network models supported in AKS, Kubenet referred to as basic networking, and Azure CNI referred to as advanced networking. As mentioned earlier, it is recommended that customers choose the advanced networking model when possible for deploying AKS (Azure CNI). Basic networking (Kubenet) should be utilized more for development and testing. The key difference between the two network models is advanced networking will allow for each pod to obtain and IP address from the Azure virtual network, whereas basic networking the pods will obtain an address from an internal Kubernetes network and will not be routable to the Azure virtual network.
+
+https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-network#choose-the-appropriate-network-model
+https://docs.microsoft.com/en-us/azure/aks/concepts-network#azure-virtual-networks
+
+When using advanced networking you will also need to plan the IP address space to consider cluster growth. Since advanced networking provides an IP address from the Azure virtual network to each pod created, the AKS agent nodes pre-allocate the number of IPs from the address space to equal the agent node max pod setting + 1. 
+
+https://docs.microsoft.com/en-us/azure/aks/configure-azure-cni#plan-ip-addressing-for-your-cluster
+
+### Storage Considerations
+It is important to have a good understanding of the type of storage operations container pods will need. This will range from speed of access to concurrent reads and writes of multiple containers of pods spread throughout the cluster. 
+
+https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-storage?view=azure-cli-latest
+
+The following link use case s can help guide the discussion of  AKS storage needs https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-storage?view=azure-cli-latest#choose-the-appropriate-storage-type. 
+
+Storage classes defines the tiers of storage and the reclaim policy of the pod. 
+https://docs.microsoft.com/en-us/azure/aks/concepts-storage#storage-classes
+
+
+
