@@ -73,7 +73,7 @@ https://docs.microsoft.com/en-us/azure/aks/concepts-storage#storage-classes
 ## Deployment
 For the POC deployment we will use the Azure portal deployment for AKS.
 
-> **GUIDE** [Walkthrough: Create an AKS Cluster](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal) 
+> **GUIDE** [Walkthrough: Create an AKS Cluster](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal#create-an-aks-cluster) 
 
 > **SPEAKER NOTES**
 * Ensure a VNET subnet has been identified to install the AKS cluster nodes to
