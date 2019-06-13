@@ -16,3 +16,18 @@ Some frequent questions asked about the AKS service are:
 3.	What is AKS-Engine and how does it differ from the AKS service in Azure?
     * “AKS Engine provides convenient tooling to quickly bootstrap Kubernetes clusters on Azure. By leveraging ARM (Azure Resource Manager), AKS Engine helps you create, destroy and maintain clusters provisioned with basic IaaS resources in Azure. AKS Engine is also the library used by AKS for performing these operations to provide managed service implementations.” https://github.com/Azure/aks-engine
     * AKS-Engine is useful for a more customized Kubernetes experience on Azure. You have the option of choosing node OSs and container runtimes as an example using AKS-Engine.
+    
+## Planning
+Before deploying the AKS service there are some key information and understandings we’ll need from the customer to ensure we’re planning the AKS cluster with the features needed to fulfill the customer’s usage and expectations.
+
+### Sizing the AKS Cluster
+When it comes to sizing the cluster, there are generally two key metrics to understand, how many pods and the resource demand of the containers in the pods.
+
+> **SPEAKER NOTES**
+* Make sure the customer in their calculation is aware of the Kubernetes resource reservations https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads#resource-reservations
+
+* Share the AKS Quota Limits https://docs.microsoft.com/en-us/azure/aks/quotas-skus-regions#service-quotas-and-limits
+
+* We advise customers to utilize the Azure CNI and to deploy the cluster utilizing the Azure CLI or ARM template. If the cluster is deployed using the Azure CLI or ARM template, you can have up to 250 pods per node. If you deploy the cluster through the portal using the Azure CNI (Advanced Networking) you are limited to 30 pods per cluster node. https://docs.microsoft.com/en-us/azure/aks/configure-azure-cni#maximum-pods-per-node
+
+* Also be aware of the restricted VM SKUs for AKS Cluster nodes https://docs.microsoft.com/en-us/azure/aks/quotas-skus-regions#service-quotas-and-limits. This is due to the required Kubernetes pods needed to run the cluster
