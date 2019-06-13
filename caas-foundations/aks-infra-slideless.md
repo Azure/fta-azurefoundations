@@ -60,7 +60,7 @@ It is important to have a good understanding of the type of storage operations c
 
 https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-storage?view=azure-cli-latest
 
-The following link use case s can help guide the discussion of  AKS storage needs https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-storage?view=azure-cli-latest#choose-the-appropriate-storage-type. 
+The following link use cases can help guide the discussion of  AKS storage needs https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-storage?view=azure-cli-latest#choose-the-appropriate-storage-type. 
 
 Storage classes defines the tiers of storage and the reclaim policy of the pod. 
 https://docs.microsoft.com/en-us/azure/aks/concepts-storage#storage-classes
