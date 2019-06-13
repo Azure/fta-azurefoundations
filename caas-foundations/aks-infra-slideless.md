@@ -71,7 +71,9 @@ https://docs.microsoft.com/en-us/azure/aks/concepts-storage#storage-classes
 * BlobFuse can be used for a unstructured data solution https://github.com/Azure/azure-storage-fuse
 
 ## Deployment
-For the POC deployment we will use the Azure portal deployment for AKS found here https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal. 
+For the POC deployment we will use the Azure portal deployment for AKS.
+
+> **GUIDE** [Walkthrough: Create an AKS Cluster](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal) 
 
 > **SPEAKER NOTES**
 * Ensure a VNET subnet has been identified to install the AKS cluster nodes to
