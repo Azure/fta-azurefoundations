@@ -80,17 +80,29 @@ For the POC deployment we will use the Azure portal deployment for AKS.
 * Ensure a VNET subnet has been identified to install the AKS cluster nodes to
 * Ensure the customer deploying the AKS cluster has the ability to create a service principle in the AAD tenant. The service principle can be pre-created prior to the deployment. 
 * If using a pre-created service principle, ensure it has the Network Contributor role to the subnet the cluster will be deployed to
+* You can choose to enable the Container Insights monitoring solution at the time of the cluster creation. Monitoring will be covered at a later section
 
 A typical deployment should take around 10 minutes. Deployments with durations beyond 15 minutes are likely to fail. Please check the deployment messages to figure out any issues. Most common failed deployments issues involve a service principle without the correct delegated permissions, blocked internet outbound access to the agent nodes (this is due to Kubernetes infrastructure pods being pulled from internet repositories, and Azure Policies limiting deployments of VM SKUs and creation of load balancer and IPs.
 
 ## Operations
 Once the deployment has completed connect to the cluster and deploy out a few applications.
 
-> **GUIDE** [Walkthrough: Deploy the Azure Voteing Application to the AKS cluster](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal#run-the-application) 
+
+1. Deploy the Azure Voting Application
+> **GUIDE** [Walkthrough: Deploy the Azure Voting Application to the AKS cluster](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal#run-the-application) 
+
+Often times a customer may want to expose thier application and/or API using a URI based path, along with the ability to have TLS. This can be accomplished using an Ingress Controller. 
+
+2. Create an Ingress Controller and Deploy URI path based application
+> **GUIDE** [Walkthrough: Create AKS Ingress Controller](https://docs.microsoft.com/en-us/azure/aks/ingress-basic)
+
+> **SPEAKER NOTES**
+* There is an additional walkthrough that shows how to create certificates for TLS [here](https://docs.microsoft.com/en-us/azure/aks/ingress-own-tls)
+* There is also an Azure Application Gateway ingress controller integration with AKS. Documentation can be found [here](https://github.com/Azure/application-gateway-kubernetes-ingress) on GitHub. 
+
 
 ## Monitoring
 
-//WIP
 
 ## Business Continuity and Disaster Recovery
 
