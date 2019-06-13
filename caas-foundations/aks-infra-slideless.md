@@ -122,6 +122,10 @@ There are several options available to monitor a Kubernetes cluster. For AKS, Az
 ## Business Continuity and Disaster Recovery
 There are several considerations and architectural approaches for achieving a highly available for the AKS cluster. 
 
+> **GUIDE** [Walkthrough: Best Practices for BC/DR for AKS](https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-multi-region)
+
+> **SPEAKER NOTES**
+* Our BC/DR best practice guide is not intended to answer all scenarios and possiblities concerning AKS HA. Utilize the guide to provide guidance to the customer on things to consider when thinking about keeping services resilient to both cluster and Azure region failures. 
 
 Velero (formally known as Heptio ARK) is a open-source backup and restore solution for Kubernetes cluster. More information on Velero can be found on their GitHub repository [here](https://prometheus.io/docs/introduction/overview/). 
 
