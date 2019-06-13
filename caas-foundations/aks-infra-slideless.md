@@ -7,5 +7,5 @@ If the customer is completely new to Kubernetes and the AKS service, it may make
 (https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads)
 
 > **SPEAKER NOTES**
-* Some frequent questions asked about the AKS service are:
-** What is the architecture of the master nodes?
+Some frequent questions asked about the AKS service are:
+  * What is the architecture of the master nodes?
