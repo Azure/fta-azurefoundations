@@ -25,7 +25,7 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 ## Container Services Slideless Deliveries
 |                               | Source format     | Estimated time| Deliver from  | Readiness Resources |
 | -------------                 | -------------     | ------------- | ------------- | ------------- |
-| Engineers Overview            |                   |               |               | [Azure Monitor Overview][az-mon-overview-sl]|
-|                               | Slideless         | 90 minutes    | [AKS Infrastructure Slideless][az-mon-sl]|[Azure AKS Documentation][https://docs.microsoft.com/en-us/azure/aks/tutorial-kubernetes-deploy-cluster]|
+| Engineers Overview            |                   |               |               | [Azure AKS Overview](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes)|
+|                               | Slideless         | 90 minutes    | [AKS Infrastructure Slideless][az-mon-sl]|[Azure AKS Documentation](https://docs.microsoft.com/en-us/azure/aks/tutorial-kubernetes-deploy-cluster)|
 |                               | Slideless         | 90 minutes    | [Application Insights Slideless][az-ai-sl]|[App Insights Overview Documentation][az-ai-docs]|
 |                               |          |     | ||
