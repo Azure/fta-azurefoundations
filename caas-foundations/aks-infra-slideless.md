@@ -104,6 +104,10 @@ Often times a customer may want to expose thier application and/or API using a U
 ## Monitoring
 
 
+> **GUIDE** [Walkthrough: Enabling Azure Monitor Container Insights from AKS Cluster](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/container-insights-enable-existing-clusters#enable-directly-from-aks-cluster-in-the-portal)
+
+
+
 ## Business Continuity and Disaster Recovery
 
 //WIP
