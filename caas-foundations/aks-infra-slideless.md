@@ -1,8 +1,11 @@
 # Azure Kubernetes Service (AKS)  
 In this slide-less delivery for AKS, we will talk through with the customer on requirements, decisions, and the necessary information they will need to deploy an AKS cluster for a POC engagement. 
 
+## AKS Concepts
+If the customer is completely new to Kubernetes and the AKS service, it may make sense to go over some of the basic concepts and understandings for AKS. The Kubernetes core concepts for AKS page is a good start to introduce the customer to the AKS service.
 
-
+(https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads)
 
 > **SPEAKER NOTES**
-* Explain to the customer that Azure dashboards will serve them as the single pane of glass to monitor their Azure resources.
+* Some frequent questions asked about the AKS service are:
+** What is the architecture of the master nodes?
