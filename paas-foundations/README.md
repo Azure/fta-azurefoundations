@@ -20,4 +20,4 @@ See our [FastTrack for Azure landing page](https://github.com/Azure/FastTrackFor
 | [PaaS Overview](paas-overview.md) | TBD |
 | [App Services](app-services.md) | TBD |
 | [Azure Functions](functions.md) | TBD |
-| [App Service Environment](app-service-environment.md)
+| [App Service Environment](app-service-environment.md) | TBD | 
