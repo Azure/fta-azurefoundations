@@ -212,3 +212,7 @@ There are a lot of options to pick from when it comes to choosing whether or not
 </table>
 
 > Source: Gartner - Decision Point for Choosing a Cloud Application Migration Strategy published March 2016
+
+The Azure Architecture Center also provides guidance for making decisions on which technologies / solutions make sense given the state of the application.
+
+https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree#flowchart
