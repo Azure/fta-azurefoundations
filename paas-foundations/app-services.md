@@ -41,9 +41,9 @@ App Services are not VMs that can be domain-joined so legacy authentication in a
 
 > **GUIDE** [Map an existing custom DNS name to App Services](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain)
 
-### App Service Plans
+## App Service Plans
 
-#### Plans
+### Plans
 
 In App Service, an app runs in an App Service plan which is a set of compute resources for a Web app or API App to run. An app service plan can run one or more apps but an app can only be associated with a single app service plan.
 
@@ -61,7 +61,7 @@ In terms of scaling app services and an application that may have a web front en
 https://docs.microsoft.com/en-us/azure/app-service/overview-hosting-plans
 
 
-#### Pricing
+### Pricing
 
 App service plans have 6 pricing tiers: Free, Shared, Basic, Standard, Premium, and Isolated.
 
@@ -76,7 +76,7 @@ The numbers of apps that can be hosted, the disk space, and the number of instan
 https://azure.microsoft.com/en-us/pricing/details/app-service/windows/
 
 
-### Publishing Methods
+## Publishing Methods
 
 There are multiple ways to deploy to App Services.
 
@@ -87,7 +87,7 @@ There are multiple ways to deploy to App Services.
 * [Local Git](https://docs.microsoft.com/en-us/azure/app-service/deploy-local-git)
 * [From a template](https://docs.microsoft.com/en-us/azure/app-service/deploy-complex-application-predictably)
 
-### Deployment Slots
+## Deployment Slots
 
 Deployment slots allow staging of code to test and validate before pushing to production via a slot-swap. Not all settings are going to be swapped between slots, as such planning needs to happen if any of these settings are vital for the different staging environments.
 
@@ -104,9 +104,9 @@ Application settings and connection strings can be configured to be sticky betwe
 
 > **GUIDE** [Set up staging environments in App Services](https://docs.microsoft.com/en-us/azure/app-service/web-sites-staged-publishing)
 
-### Diagnostics and Monitoring
+## Diagnostics and Monitoring
 
-#### Diagnostics
+### Diagnostics
 App Service provides built-in diagnostics to assist with debugging and troubleshooting.
 
 There are four kinds of logs that can be enabled via the Azure portal.
@@ -122,13 +122,13 @@ By default all the loggings are *Off* and can be turned on as needed.
 
 When the logs are enabled, they can be stored in either the Filesystem on the VM or in a storage account. And FTP client or the Kudu console can be used to access logs stored on the filesytem.
 
-#### Monitoring
+### Monitoring
 
 App Services provides built in monitoring functionality via the Azure portal. This includes the ability to review quotas and metrics for an app as well as the App Service plan. In addition, monitoring collects the number of requests to an app, average response time, HTTP server errors, data in & out.
 
 Application Insights can be used to instrument an app and send telemetry to Azure to analyze how it is being used, the number of users including where they are coming from, what devices they are using, and what features they are using in your app.
 
-#### Alerts
+### Alerts
 
 Alerts can also be setup via portal. Metrics for the app or plan can be connected to alerts and to provide email notifications for when they trigger.
 
@@ -137,7 +137,7 @@ For example alerts can notify when average response time of an app goes above 2 
 > **GUIDE** [Enable diagnostics logging for apps in App Services](https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-diagnostic-logs)
 > **GUIDE** [Monitor apps in App Services](https://docs.microsoft.com/en-us/Azure/app-service/web-sites-monitor)
 
-### API Apps
+## API Apps
 
 There are additional benefits to running API applications in an App Service:
 * **Bring an existing API as-is**: No changes required to the existing API code is needed to take advantage of Azure API Apps features
@@ -145,7 +145,7 @@ There are additional benefits to running API applications in an App Service:
 * **From a Swagger metadata perspective**: Integrated Swagger support makes APIs easily consumable by a variety of clients. The API Apps SDK can generate client code for an API in a variety of languages including C#, Java, and JavaScript.
 * **Integration with Logic Apps & API management**: API apps can be easily consumed by Logic Apps or API Management.
 
-#### Swagger
+### Swagger
 
 Swagger is a standard, language-agnostic interface to REST APIs which allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection.
 
@@ -159,6 +159,6 @@ In simple terms Swashbuckle is a NuGet package to generate Swagger. In addition 
 
 https://github.com/domaindrivendev/Swashbuckle.AspNetCore
 
-> **GUIDE**[Host a RESTful API with CORS in App Services](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-rest-api)
+> **GUIDE** [Host a RESTful API with CORS in App Services](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-rest-api)
 
-> **GUIDE**[Authentication and authorization in App Services](https://docs.microsoft.com/en-us/azure/app-service/overview-authentication-authorization)
+> **GUIDE** [Authentication and authorization in App Services](https://docs.microsoft.com/en-us/azure/app-service/overview-authentication-authorization)
