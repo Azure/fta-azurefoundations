@@ -172,13 +172,86 @@ Type ‘web app’ in the search box
  [SQL Server Documentation](http://azure.microsoft.com/documentation/services/sql-database/)
  
   #### SendGrid Account
+  
+* Click the Home button, then the Create button in the upper right of the portal
+* Type ‘sendgrid’ in the search box
+* Click SendGrid in the dropdown
+* Click the Create button on the SendGrid introduction page
+* Type the name you chose for your SendGrid account in the name field
+* Type a password and confirm it – note your password down somewhere as you’ll need it later
+* Select your subscription
+* Select Use existing resource group and choose your resource group from the dropdown
+* Choose the free pricing tier
+* Fill out your contact information (make sure to use a valid email address that you can access as you’ll need to verify your account)
+* Accept the legal terms
+* Click Create
+
+![Screenshot](media/CreateSendGridAccount.png)
+
+Once the SendGrid account is created, click on Resource Groups in the Azure portal left nav menu
+Click on your resource group
+Click on your SendGrid account
+Click on the Manage button on the top
+
+![Screenshot](media/ManageSendGridAccount.png)
+
+SendGrid will prompt you to verify your account since it is your first sign-in. Follow the instructions to do so.
+Once the account is verified, you’ll be able to access your SendGrid management screen
+On the left nav menu of the SendGrid management screen, click Settings
+Under Settings, click API Keys
+
+![Screenshot](media/ManageSendGridAccountAPIKey.png)
+
+Click the Create API Key button in the upper right
+Type an API key name
+Choose Full Access
+Click Create & View
+
+![Screenshot](media/ManageSendGridAccountAPIKeyCreateKey.png)
+
+You will be presented with a key in the form of a long text string
+Select the key and copy the key to notepad or some place where you can retrieve it because SendGrid will not show it to you again
+Your SendGrid account is ready for use. You will need the key later for configuring the application.
 
 ### Code Deployment
 ## Deploy the Web and API Apps
+Open the ContsoCore solution file in Visual Studio
+Right-click on Contoso.Expenses.API
+Choose Publish
 
-## NOTE START HERE FOR THE REMAINING SCREEN SHOTS FOR THE POC
+![Screenshot](media/SolutionWithProjects.png)
+
+Click the Start button on the publish page
+
+![Screenshot](media/StartButtonOnPublishPage.png)
+
+Select App Service as the publish target
+Choose Select Existing for the App Service
+Click publish in the lower right
+
+![Screenshot](media/PickaPublishTargetFunctionApp.png)
+
+You may need to log in to Azure using the button in the upper right of the dialog, if not already logged in
+Choose your subscription
+Choose the Resource Group view
+Click to expand the folder with the name you chose for your resource group in the planning section
+Click on the API app with the name you chose in the planning section
+Click OK in the lower right
+
+![Screenshot](media/SelectWebAppToPublishTo.png)
+
+You should see the publish status in Visual Studio’s output window
+After 30 seconds or so, it should succeed and open a browser displaying the site
+Repeat the steps in this section for the Contoso.Expenses.Web app. In other words, right click on the Contoso.Expenses.Web project and choose publish. When you get to the selection of the App Service, select the name of your web app from the resource group folder (instead of the API app service).
 
 ## Deploy the Function App
+
+Right-click on the Contoso.Expenses.Function project and choose Publish
+Click the Start button
+Select Azure Function App as the Publish target
+Choose Select Existing from the Azure App Service
+Check Run from package file
+Click the publish button in the lower right
 
 ## Deploy the Database
 
