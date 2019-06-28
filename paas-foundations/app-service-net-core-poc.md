@@ -1,5 +1,5 @@
 ## Contoso Expenses 
-A .Net Core Multi-Tier PaaS Sample App
+A .Net Core Multi-Tier PaaS Sample Application
 
 ## Prerequisites
 * To complete the Proof of Concept, you will need:
