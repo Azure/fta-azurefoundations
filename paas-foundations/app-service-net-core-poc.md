@@ -188,79 +188,165 @@ Type ‘web app’ in the search box
 
 ![Screenshot](media/CreateSendGridAccount.png)
 
-Once the SendGrid account is created, click on Resource Groups in the Azure portal left nav menu
-Click on your resource group
-Click on your SendGrid account
-Click on the Manage button on the top
+* Once the SendGrid account is created, click on Resource Groups in the Azure portal left nav menu
+* Click on your resource group
+* Click on your SendGrid account
+* Click on the Manage button on the top
 
 ![Screenshot](media/ManageSendGridAccount.png)
 
-SendGrid will prompt you to verify your account since it is your first sign-in. Follow the instructions to do so.
-Once the account is verified, you’ll be able to access your SendGrid management screen
-On the left nav menu of the SendGrid management screen, click Settings
-Under Settings, click API Keys
+* SendGrid will prompt you to verify your account since it is your first sign-in. Follow the instructions to do so.
+* Once the account is verified, you’ll be able to access your SendGrid management screen
+* On the left nav menu of the SendGrid management screen, click Settings
+* Under Settings, click API Keys
 
 ![Screenshot](media/ManageSendGridAccountAPIKey.png)
 
-Click the Create API Key button in the upper right
-Type an API key name
-Choose Full Access
-Click Create & View
+* Click the Create API Key button in the upper right
+* Type an API key name
+* Choose Full Access
+* Click Create & View
 
 ![Screenshot](media/ManageSendGridAccountAPIKeyCreateKey.png)
 
-You will be presented with a key in the form of a long text string
-Select the key and copy the key to notepad or some place where you can retrieve it because SendGrid will not show it to you again
-Your SendGrid account is ready for use. You will need the key later for configuring the application.
+* You will be presented with a key in the form of a long text string
+* Select the key and copy the key to notepad or some place where you can retrieve it because SendGrid will not show it to you again
+* Your SendGrid account is ready for use. You will need the key later for configuring the application.
 
 ### Code Deployment
 ## Deploy the Web and API Apps
-Open the ContsoCore solution file in Visual Studio
-Right-click on Contoso.Expenses.API
-Choose Publish
+* Open the ContsoCore solution file in Visual Studio
+* Right-click on Contoso.Expenses.API
+* Choose Publish
 
 ![Screenshot](media/SolutionWithProjects.png)
 
-Click the Start button on the publish page
+* Click the Start button on the publish page
 
 ![Screenshot](media/StartButtonOnPublishPage.png)
 
-Select App Service as the publish target
-Choose Select Existing for the App Service
-Click publish in the lower right
+* Select App Service as the publish target
+* Choose Select Existing for the App Service
+* Click publish in the lower right
 
 ![Screenshot](media/PickaPublishTargetFunctionApp.png)
 
-You may need to log in to Azure using the button in the upper right of the dialog, if not already logged in
-Choose your subscription
-Choose the Resource Group view
-Click to expand the folder with the name you chose for your resource group in the planning section
-Click on the API app with the name you chose in the planning section
-Click OK in the lower right
+* You may need to log in to Azure using the button in the upper right of the dialog, if not already logged in
+* Choose your subscription
+* Choose the Resource Group view
+* Click to expand the folder with the name you chose for your resource group in the planning section
+* Click on the API app with the name you chose in the planning section
+* Click OK in the lower right
 
 ![Screenshot](media/SelectWebAppToPublishTo.png)
 
-You should see the publish status in Visual Studio’s output window
-After 30 seconds or so, it should succeed and open a browser displaying the site
-Repeat the steps in this section for the Contoso.Expenses.Web app. In other words, right click on the Contoso.Expenses.Web project and choose publish. When you get to the selection of the App Service, select the name of your web app from the resource group folder (instead of the API app service).
+* You should see the publish status in Visual Studio’s output window. After 30 seconds or so, it should succeed and open a browser displaying the site.
+* Repeat the steps in this section for the Contoso.Expenses.Web app. In other words, right click on the Contoso.Expenses.Web project and choose publish. When you get to the selection of the App Service, select the name of your web app from the resource group folder (instead of the API app service).
 
 ## Deploy the Function App
 
-Right-click on the Contoso.Expenses.Function project and choose Publish
-Click the Start button
-Select Azure Function App as the Publish target
-Choose Select Existing from the Azure App Service
-Check Run from package file
-Click the publish button in the lower right
+* Right-click on the Contoso.Expenses.Function project and choose Publish
+* Click the Start button
+* Select Azure Function App as the Publish target
+* Choose Select Existing from the Azure App Service
+* Check Run from package file
+* Click the publish button in the lower right
+
+![Screenshot](media/PickaPublishTargetFunctionApp.png)
+
+* Log into Azure if necessary (upper right)
+* Choose your subscription
+* Choose Resource Group view
+* Open the folder with your resource group name
+* Choose your function app
+* Click OK
+
+![Screenshot](media/SelectFunctionAppToPublishTo.png)
+
+* You should see the publish status and success in Visual Studio’s output window
 
 ## Deploy the Database
+* Click on Resource Groups on the Portal left nav
+* Click on your resource group
+* Click on your SQL Server name
+* Click on Firewalls and virtual networks (under Security)
+* Click on Add client IP
+* Click on Save
+
+![Screenshot](media/AddIPsToAllowForServerFirewall.png)
+
+* This allows your machine and Visual Studio to access your DB
+* Back in Visual Studio, right-click on the Contoso.Expenses.Web project in Solution Explorer
+* Choose Manage User Secrets from the menu
+* Secrets.json will open in the Visual Studio editor
+* Edit the contents of the file, creating a JSON object named “ConnectionStrings” containing two properties, DBConnectionString and StorageConnectionString
+* Use the template below to create the value for DBConnectionString. It is a standard ADO SQL connection string. Use substitute these {values} for the names you chose in the planning section
+
+````JSON
+Server=tcp:{SQL Server}.database.windows.net,1433;Initial Catalog={SQL DB};Persist Security Info=False;User ID={SQL Admin User};Password={SQL Admin Password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+````
+* You can leave the StorageConnectionString empty for our purposes now
+* Your secrets.json file should look similar to the one below:
+
+![Screenshot](media/secretsjson.png)
+
+* Save your secrets.json file
+* Click on or open the Visual Studio Package Manager Console
+* Set the default project to Contoso.Expenses.Common
+* Type Update-database at the PM> prompt
+
+![Screenshot](media/PackageManagerConsole.png)
+
+* The package manager should be able connect to the DB, using the connection string you created and saved, to create the Expenses table in Azure SQL.
 
 ## Configuration
 ### Configure the Azure Function
 
+* Click on Resource Groups on the Portal left nav
+* Click on your resource group
+* Click on your function
+* Click on your function name on the left
+* Click on the Platform features tab
+* Click Configuration under General Settings
+
+![Screenshot](media/functionappconfigsettings.png)
+
+* Under Application Settings, click on New application setting
+* Add the SendGridKey application setting name
+* Paste in your SendGrid API key
+* Click the Update Button in the bottom right
+
+![Screenshot](media/FunctionAppConfigSettingSendGridKeys.png)
+
+* Click the Save button on the top to save the application setting
+* Find the AzureWebJobsStorage setting and click on its edit button on the right
+
+![Screenshot](media/functionappconfigsettingsAzureWebJobsStorage.png)
+
+* Copy the value out of the Value box and paste it in notepad or some other tool where you can retrieve it again for later configuration steps
+* What you have copied is the connection string to the storage account that the function uses for its own storage. The web application will place expenses on a queue in this storage account. You could use any storage account as long as you configure both the function and web app with the proper application settings and connection string to it. It is just easier for our purposes here to leverage the account the function is already using.
 
 ### Configure the Web App
 
+* Click on Resource Groups on the Portal left nav
+* Click on your resource group
+* Click on your Web App
+* Click on Configuration
+* Click on New Connection String, under Connection Strings
 
+![Screenshot](media/functionappconfigsettingsAzureWebJobsStorage.png)
 
+* Type StorageConnectionString in the setting name. For the Value, paste in the connection string captured from the Azure Function AzureWebJobsStorage application setting captured earlier while configuring the Azure Function.
+* Click the Update button on the bottom
+
+![Screenshot](media/WebAppStorageConnectionStringAppSettingsAddEdit.png)
+
+* Type DBConnectionString for the setting name
+* Paste in the SQL connection string you created earlier for Value
+* Set the Type to SQLAzure
+* Click the Update button on the bottom
+
+![Screenshot](media/WebAppStorageConnectionStringAppSettingsAddEditTypeAzureSQLNotCustom.png)
+
+* Click the Save button at the top of the application settings screen
 
