@@ -13,8 +13,7 @@ A .Net Core Multi-Tier PaaS Sample App
     
     * Download latest SQL Server Management Studio [here](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms) and install:
     
-    * Download Proof-of-concept project from [here](https://fasttrackforazure.blob.core.windows.net/sourcecode/Contoso.Expenses.zip)
-      * TO DO - upload the NET Core Version and update the link to the .NET Core Solution zip!
+    * Download Proof-of-concept project from [here](https://demowebst.blob.core.windows.net/code/ContosoCoreProject.zip)
 
 ## Planning
 
