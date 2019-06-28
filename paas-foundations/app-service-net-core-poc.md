@@ -16,6 +16,17 @@ A .Net Core Multi-Tier PaaS Sample App
     * Download Proof-of-concept project from [here](https://demowebst.blob.core.windows.net/code/ContosoCoreProject.zip)
 
 ## Planning
+| |Resource Type | Your Name | Name Used in this POC | Description |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| |  Resource Group|   | conexp | The name of the Azure resource group that contains all the required resources of the application we’ll deploy to Azure|
+| |  App Service Plan|   | conexpplan | The name of the application service plan, which hosts the virtual ‘hardware’ for the App Service offerings we’ll use (API, Web App, Function)|
+| |  Web app|   | conexpweb | The name of your main website |
+| |  API App|   | conexpapi | The name of the API your website will call to get cost center information |
+| |  SQL Server|   | conexpsql | The name of the SQL server that will host the expenses database |
+| |  SQL DB|   | Db1 | The name of the database that will contain the Expense table |
+| |  Azure Function |   | conexpfn | The name of the Azure Function that will monitor a queue, trigger on expenses placed on the queue, and send an email to the approver containing the expense information |
+| |  Storage account |   | conexpstore | The name of the storage account that will be used by the function and to host a queue |
+| | Azure Region |   | Central US | The Azure region that you’d like your resources to be created in, which is the geographic location of the datacenter used to host them |
 
 ## Solution Workflow
 
