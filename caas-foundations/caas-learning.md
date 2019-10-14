@@ -48,6 +48,9 @@ The following resources have been curated to help guide you in your readiness fo
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
 | 200   | Get Started, Part 1: Orientation and setup                                                      | https://docs.docker.com/get-started/                                                                       |   docs.docker.com     | Online Reading & Hands On |  1h              |   |
 | 200   | Get Started, Part 2: Containerizing an Application                                                      | https://docs.docker.com/get-started/part2/                                                                       |   docs.docker.com     | Online Reading & Hands On |  30m              |   |
+| 200   | Get Started, Part 3: Deploying to Kubernetes                                                      | https://docs.docker.com/get-started/part3/                                                                       |   docs.docker.com     | Online Reading & Hands On |  30m              |   |
+| 200   | Get Started, Part 4: Deploying to Swarm                                                      | https://docs.docker.com/get-started/part4/                                                                       |   docs.docker.com     | Online Reading & Hands On |  30m              |   |
+| 200   | Get Started, Part 5: Sharing Images on Docker Hub                                                      | https://docs.docker.com/get-started/part5/                                                                       |   docs.docker.com     | Online Reading & Hands On |  30m              |   |
 
 
 
