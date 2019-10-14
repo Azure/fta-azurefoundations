@@ -26,7 +26,11 @@ The following resources have been curated to help guide you in your readiness fo
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
 | 100   | Getting Started With Ubuntu                                                    | https://app.pluralsight.com/library/courses/ubuntu-getting-started/table-of-contents                       |  Pluralsight      | Online Training Course | 3h 36m               | 02/26/2015  |
 
+# Introduction to YAML
 
+| Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
+|-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
+| 100   | Introduction to YAML                                                    | https://www.youtube.com/watch?v=o9pT9cWzbnI&t=                      |  YouTube      | Online Video | 8m               | 04/26/2018  |
 
 
 
