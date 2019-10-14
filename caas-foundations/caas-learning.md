@@ -34,10 +34,10 @@ The following resources have been curated to help guide you in your readiness fo
 
 
 
-# Containers Foundation Learning Path
+# Docker Containers Overview and Introduction
 | Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
-| 100   | Docker   Overview                                                              | https://docs.docker.com/engine/docker-overview/                                                            |        | Online Reading |                | 5/02/2019  |
+| 100   | Docker   Overview                                                              | https://docs.docker.com/engine/docker-overview/                                                            |   docs.docker.com     | Online Reading |   8m             |   |
 | 100   | Docker 101: Introduction to Docker   (Docker YouTube Channel)                  | https://www.youtube.com/watch?v=V9IJj4MzZBc                                                                |        | Recorded Video |                | 5/02/2019  |
 | 100   | Docker and   Containers: The Big Picture                                       | https://app.pluralsight.com/library/courses/docker-containers-big-picture/table-of-contents                |        | Recorded Video |                | 5/02/2019  |
 | 100   | Containers on Windows                                                          | https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/                                   |        | Online Reading |                | 5/02/2019  |
