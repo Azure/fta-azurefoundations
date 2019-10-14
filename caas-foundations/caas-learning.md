@@ -24,7 +24,7 @@ The following resources have been curated to help guide you in your readiness fo
 
 | Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
-| 100   | Getting Started With Ubuntu                                                              | https://app.pluralsight.com/library/courses/ubuntu-getting-started/table-of-contents                                                            |        | Pluralsight Course |                | 02/26/2015  |
+| 100   | Getting Started With Ubuntu                                                    | https://app.pluralsight.com/library/courses/ubuntu-getting-started/table-of-contents                       |  Pluralsight      | Online Training Course | 3h 36m               | 02/26/2015  |
 
 
 
