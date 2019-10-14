@@ -1,10 +1,26 @@
-//WIP
+# Azure Kubernetes Service (AKS) Learning Resources
 
+This learning guide has been designed to assist with the readiness and credentialing for supporting AKS engagements. For credentialing this document will be used in conjunction with your assigned learning guide by the Readiness and IP team. After you achieve your credentialing you can refer to this document for updates to the technical readiness material and to stay up current with the credential.
 
+## Learning Objectives
 
+After completing the learning resources contained in this document, you should be able to solve/assist with the following common scenarios and common customer questions.
 
+### Scenario 1
 
-## Containers Foundation Learning Path
+TBA
+
+### Common Customer Questions
+
+TBA
+
+## Learning Resources
+
+The following resources have been curated to help guide you in your readiness for delivery and credentialing.
+
+> Tip: The level and scenarios covered columns will help guide you through this training by targeting the content where you need growth. The comments column may also indicate other key information regarding the training such as required previous training, length, etc.
+
+# Containers Foundation Learning Path
 | Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
 | 100   | Docker   Overview                                                              | https://docs.docker.com/engine/docker-overview/                                                            |        | Online Reading |                | 5/02/2019  |
