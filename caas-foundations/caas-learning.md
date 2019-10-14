@@ -20,6 +20,16 @@ The following resources have been curated to help guide you in your readiness fo
 
 > Tip: The level and scenarios covered columns will help guide you through this training by targeting the content where you need growth. The comments column may also indicate other key information regarding the training such as required previous training, length, etc.
 
+# Getting Started with Linux (Ubuntu)
+
+| Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
+|-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
+| 100   | Getting Started With Ubuntu                                                              | https://app.pluralsight.com/library/courses/ubuntu-getting-started/table-of-contents                                                            |        | Pluralsight Course |                | 02/26/2015  |
+
+
+
+
+
 # Containers Foundation Learning Path
 | Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
