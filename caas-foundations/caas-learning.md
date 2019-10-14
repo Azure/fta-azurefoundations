@@ -40,7 +40,7 @@ The following resources have been curated to help guide you in your readiness fo
 | 100   | Docker   Overview                                                              | https://docs.docker.com/engine/docker-overview/                                                            |   docs.docker.com     | Online Reading |   8m             |   |
 | 100   | Docker 101: Introduction to Docker   (Docker YouTube Channel)                  | https://www.youtube.com/watch?v=V9IJj4MzZBc                                                                |  YouTube      | Online Video |     1h           | 8/16/2017  |
 | 100   | Docker and   Kubernetes: The Big Picture                                       |https://app.pluralsight.com/library/courses/docker-kubernetes-big-picture/table-of-contents                |    Pluralsight    | Online Training Course |  2h              | 2/13/2019  |
-| 100   | Containers on Windows                                                          | https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/                                   |  docs.microsoft.com      | Online Reading |                | 5/21/2019  |
+| 100   | Containers on Windows                                                          | https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/                                   |  docs.microsoft.com      | Online Reading & Video |   40m             | 5/21/2019  |
 
 
 # Getting Started with Docker
