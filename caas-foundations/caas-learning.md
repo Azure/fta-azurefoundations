@@ -47,7 +47,7 @@ The following resources have been curated to help guide you in your readiness fo
 | Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
 | 200   | Get Started, Part 1: Orientation and setup                                                      | https://docs.docker.com/get-started/                                                                       |   docs.docker.com     | Online Reading & Hands On |  1h              |   |
-| 200   | Get Started, Part 2: Containerizing an Application                                                      | https://docs.docker.com/get-started/part2/                                                                       |   docs.docker.com     | Online Reading & Hands On |  1h              |   |
+| 200   | Get Started, Part 2: Containerizing an Application                                                      | https://docs.docker.com/get-started/part2/                                                                       |   docs.docker.com     | Online Reading & Hands On |  30m              |   |
 
 
 
