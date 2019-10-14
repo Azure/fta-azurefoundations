@@ -41,6 +41,11 @@ The following resources have been curated to help guide you in your readiness fo
 | 100   | Docker 101: Introduction to Docker   (Docker YouTube Channel)                  | https://www.youtube.com/watch?v=V9IJj4MzZBc                                                                |  YouTube      | Online Video |     1h           | 8/16/2017  |
 | 100   | Docker and   Kubernetes: The Big Picture                                       |https://app.pluralsight.com/library/courses/docker-kubernetes-big-picture/table-of-contents                |    Pluralsight    | Online Training Course |  2h              | 2/13/2019  |
 | 100   | Containers on Windows                                                          | https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/                                   |        | Online Reading |                | 5/02/2019  |
+
+
+# Getting Started with Docker
+| Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
+|-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
 | 200   | Get Started with   Docker                                                      | https://docs.docker.com/get-started/                                                                       |        | Online Reading |                | 5/02/2019  |
 | 200   | Windows Containers on   Windows 10                                             | https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/quick-start-windows-10       |        | Online Reading |                | 5/02/2019  |
 | 200   | Linux Containers on   Windows 10                                               | https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/quick-start-windows-10-linux |        | Online Reading |                | 5/02/2019  |
