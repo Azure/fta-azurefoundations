@@ -70,7 +70,7 @@ The following resources have been curated to help guide you in your readiness fo
 | 300   | Kubernetes Installation and Configuration Fundamentals                                                      | https://app.pluralsight.com/library/courses/kubernetes-installation-configuration-fundamentals/table-of-contents                                                                       |   Pluralsight     | Online Training Course |  2h 37m              | 1/11/2019  |
 
 
-# Azure Kubernetes Service (AKS)
+# Azure Kubernetes Service (AKS) Overview & Deployments
 | Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
 | 200   | Overview Azure Kubernetes Service (AKS)                                      | https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes                                 |   docs.microsoft.com     | Online Reading |  5m              | 5/05/2019  |
@@ -82,7 +82,9 @@ The following resources have been curated to help guide you in your readiness fo
 | 200   | Create a Windows Server container on an Azure Kubernetes Service (AKS) cluster using the Azure CLI      | https://docs.microsoft.com/en-us/azure/aks/windows-container-cli                               |   docs.microsoft.com     | Online Reading & Hands On |    30m            | 6/16/2019  |
 
 
-
+# Azure Kubernetes Service (AKS) Tutorial
+| Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
+|-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
 
 
 | 200   | Build a Sample App                                                             | https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/building-sample-app          |        | Online Reading |                | 5/02/2019  |
