@@ -1,6 +1,6 @@
 # Azure Kubernetes Service (AKS) Learning Resources
 
-This learning guide has been designed to assist with the readiness and credentialing for supporting AKS engagements. For credentialing this document will be used in conjunction with your assigned learning guide by the Readiness and IP team. After you achieve your credentialing you can refer to this document for updates to the technical readiness material and to stay up current with the credential.
+This AKS learning guide has been carefully curated to assist with the readiness and credentialing for supporting AKS engagements. For credentialing this document will be used in conjunction with your assigned learning guide by the Readiness and IP team. After you achieve your credentialing you can refer to this document for updates to the technical readiness material and to stay up current with the credential.
 
 ## Learning Objectives
 
