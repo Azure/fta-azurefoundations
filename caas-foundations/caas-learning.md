@@ -98,6 +98,8 @@ The following resources have been curated to help guide you in your readiness fo
 | 300   | Storage      | https://docs.microsoft.com/en-us/azure/aks/concepts-storage                             |   docs.microsoft.com     | Online Reading |    15m            | 2/28/2019  |
 | 300   | Scale      | https://docs.microsoft.com/en-us/azure/aks/concepts-scale                             |   docs.microsoft.com     | Online Reading |    15m            | 2/27/2019  |
 | 300   | Service Quotas and Limits      | https://docs.microsoft.com/en-us/azure/aks/quotas-skus-regions                             |   docs.microsoft.com     | Online Reading |    15m            | 4/08/2019  |
+| 300   | Supported Kubernetes Version      | https://docs.microsoft.com/en-us/azure/aks/supported-kubernetes-versions                           |   docs.microsoft.com     | Online Reading |    15m            | 5/19/2019  |
+| 300   | Security Hardening in the Host OS      | https://docs.microsoft.com/en-us/azure/aks/security-hardened-vm-host-image                          |   docs.microsoft.com     | Online Reading |    15m            | 9/10/2019  |
 
 
 
