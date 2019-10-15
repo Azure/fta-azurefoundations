@@ -51,6 +51,8 @@ The following resources have been curated to help guide you in your readiness fo
 | 200   | Get Started, Part 3: Deploying to Kubernetes                                                      | https://docs.docker.com/get-started/part3/                                                                       |   docs.docker.com     | Online Reading & Hands On |  30m              |   |
 | 200   | Get Started, Part 4: Deploying to Swarm                                                      | https://docs.docker.com/get-started/part4/                                                                       |   docs.docker.com     | Online Reading & Hands On |  30m              |   |
 | 200   | Get Started, Part 5: Sharing Images on Docker Hub                                                      | https://docs.docker.com/get-started/part5/                                                                       |   docs.docker.com     | Online Reading & Hands On |  30m              |   |
+| 200   | Run Your First Windows Container on Windows 10                                             | https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/run-your-first-container       |    docs.microsoft.com    | Online Reading | 15m               | 9/10/2019  |
+| 200   | Run Your First Linux Container on Windows 10                                               | https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/quick-start-windows-10-linux |   docs.microsoft.com     | Online Reading |   15m             | 8/15/2019  |
 
 
 # Developing Docker Images
@@ -78,8 +80,7 @@ The following resources have been curated to help guide you in your readiness fo
 
 
 
-| 200   | Windows Containers on   Windows 10                                             | https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/quick-start-windows-10       |        | Online Reading |                | 5/02/2019  |
-| 200   | Linux Containers on   Windows 10                                               | https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/quick-start-windows-10-linux |        | Online Reading |                | 5/02/2019  |
+
 | 200   | Build a Sample App                                                             | https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/building-sample-app          |        | Online Reading |                | 5/02/2019  |
 | 200   | Best Practices for   Writing Dockerfiles                                       | https://docs.docker.com/develop/develop-images/dockerfile_best-practices/                                  |        | Online Reading |                | 5/02/2019  |
 | 200   | Deploy a Registry Server                                                       | https://docs.microsoft.com/en-us/learn/modules/build-and-store-container-images/index                      |        | Online Reading |                | 5/02/2019  |
