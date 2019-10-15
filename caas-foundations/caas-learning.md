@@ -68,7 +68,10 @@ The following resources have been curated to help guide you in your readiness fo
 | 300   | Kubernetes Installation and Configuration Fundamentals                                                      | https://app.pluralsight.com/library/courses/kubernetes-installation-configuration-fundamentals/table-of-contents                                                                       |   Pluralsight     | Online Training Course |  2h 37m              | 1/11/2019  |
 
 
-
+# Azure Kubernetes Service (AKS)
+| Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
+|-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
+| 200   | Overview Azure Kubernetes Service (AKS)                                      | https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes                                                |   docs.microsoft.com     | Online Reading |                | 5/05/2019  |
 
 
 | 200   | Windows Containers on   Windows 10                                             | https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/quick-start-windows-10       |        | Online Reading |                | 5/02/2019  |
@@ -77,7 +80,7 @@ The following resources have been curated to help guide you in your readiness fo
 | 200   | Best Practices for   Writing Dockerfiles                                       | https://docs.docker.com/develop/develop-images/dockerfile_best-practices/                                  |        | Online Reading |                | 5/02/2019  |
 | 200   | Deploy a Registry Server                                                       | https://docs.microsoft.com/en-us/learn/modules/build-and-store-container-images/index                      |        | Online Reading |                | 5/02/2019  |
 | 200   | Build and Store   Container Images with Azure Container Registry               | https://docs.microsoft.com/en-us/learn/modules/build-and-store-container-images/index                      |        | Online Reading |                | 5/02/2019  |
-| 200   | Overview Azure   Kubernetes Service (AKS)                                      | https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes                                                |        | Online Reading |                | 5/02/2019  |
+
 | 200   | Deploy an Azure   Kubernetes Service (AKS) cluster using the Azure portal      | https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal                                   |        | Online Reading |                | 5/02/2019  |
 | 300   | Build a Sample App                                                             | https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/building-sample-app          |        | Online Reading |                | 5/02/2019  |
 | 300   | Best Practices for   Writing Dockerfiles                                       | https://docs.docker.com/develop/develop-images/dockerfile_best-practices/                                  |        | Online Reading |                | 5/02/2019  |
