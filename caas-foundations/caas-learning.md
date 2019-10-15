@@ -62,6 +62,12 @@ The following resources have been curated to help guide you in your readiness fo
 | 200   | Dockerfile Reference                                                      | https://docs.docker.com/engine/reference/builder/                                                                     |   docs.docker.com     | Online Reading & Hands On |  1h              |   |
 
 
+# Kubernetes Fundamentals
+| Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
+|-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
+| 300   | Kubernetes Installation and Configuration Fundamentals                                                      | https://app.pluralsight.com/library/courses/kubernetes-installation-configuration-fundamentals/table-of-contents                                                                       |   Pluralsight     | Online Training Course |  2h 37m              |   |
+
+
 
 
 
