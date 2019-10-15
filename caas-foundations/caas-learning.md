@@ -53,6 +53,13 @@ The following resources have been curated to help guide you in your readiness fo
 | 200   | Get Started, Part 5: Sharing Images on Docker Hub                                                      | https://docs.docker.com/get-started/part5/                                                                       |   docs.docker.com     | Online Reading & Hands On |  30m              |   |
 
 
+# Developing Docker Images
+| Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
+|-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
+| 300   | Best practices for writing Dockerfiles                                                      | https://docs.docker.com/develop/develop-images/dockerfile_best-practices/                                                                       |   docs.docker.com     | Online Reading & Hands On |  1h              |   |
+| 300   | Creating a Base Image                                                      | https://docs.docker.com/develop/develop-images/baseimages/                                                                      |   docs.docker.com     | Online Reading & Hands On |  30m              |   |
+
+
 
 
 
