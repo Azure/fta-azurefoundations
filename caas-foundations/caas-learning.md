@@ -75,7 +75,11 @@ The following resources have been curated to help guide you in your readiness fo
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
 | 200   | Overview Azure Kubernetes Service (AKS)                                      | https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes                                 |   docs.microsoft.com     | Online Reading |  5m              | 5/05/2019  |
 | 200   | Kubernetes core concepts for Azure Kubernetes Service (AKS)                                      | https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads                                 |   docs.microsoft.com     | Online Reading |  15m              | 5/05/2019  |
-
+| 200   | Deploy an Azure Kubernetes Service (AKS) cluster using the Azure portal      | https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal                                   |   docs.microsoft.com     | Online Reading & Hands On |    30m            | 5/30/2019  |
+| 200   | Deploy an Azure Kubernetes Service (AKS) cluster using the Azure CLI      | https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough                                 |   docs.microsoft.com     | Online Reading & Hands On |    30m            | 5/30/2019  |
+| 200   | Deploy an Azure Kubernetes Service (AKS) cluster using the Azure CLI      | https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough                                 |   docs.microsoft.com     | Online Reading & Hands On |    30m            | 5/30/2019  |
+| 200   | Deploy an Azure Kubernetes Service (AKS) cluster using an Azure Resource Manager template      | https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-rm-template                               |   docs.microsoft.com     | Online Reading & Hands On |    30m            | 4/18/2019  |
+| 200   | Create a Windows Server container on an Azure Kubernetes Service (AKS) cluster using the Azure CLI      | https://docs.microsoft.com/en-us/azure/aks/windows-container-cli                               |   docs.microsoft.com     | Online Reading & Hands On |    30m            | 6/16/2019  |
 
 
 
