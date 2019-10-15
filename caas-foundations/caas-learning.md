@@ -58,6 +58,8 @@ The following resources have been curated to help guide you in your readiness fo
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
 | 300   | Best practices for writing Dockerfiles                                                      | https://docs.docker.com/develop/develop-images/dockerfile_best-practices/                                                                       |   docs.docker.com     | Online Reading & Hands On |  1h              |   |
 | 300   | Creating a Base Image                                                      | https://docs.docker.com/develop/develop-images/baseimages/                                                                      |   docs.docker.com     | Online Reading & Hands On |  30m              |   |
+| 300   | Using Multi-Stage Builds                                                      | https://docs.docker.com/develop/develop-images/multistage-build/                                                                      |   docs.docker.com     | Online Reading & Hands On |  30m              |   |
+| 200   | Dockerfile Reference                                                      | https://docs.docker.com/engine/reference/builder/                                                                     |   docs.docker.com     | Online Reading & Hands On |  1h              |   |
 
 
 
