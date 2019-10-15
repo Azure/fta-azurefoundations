@@ -65,7 +65,7 @@ The following resources have been curated to help guide you in your readiness fo
 # Kubernetes Fundamentals
 | Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
-| 300   | Kubernetes Installation and Configuration Fundamentals                                                      | https://app.pluralsight.com/library/courses/kubernetes-installation-configuration-fundamentals/table-of-contents                                                                       |   Pluralsight     | Online Training Course |  2h 37m              |   |
+| 300   | Kubernetes Installation and Configuration Fundamentals                                                      | https://app.pluralsight.com/library/courses/kubernetes-installation-configuration-fundamentals/table-of-contents                                                                       |   Pluralsight     | Online Training Course |  2h 37m              | 1/11/2019  |
 
 
 
