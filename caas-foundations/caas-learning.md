@@ -71,7 +71,11 @@ The following resources have been curated to help guide you in your readiness fo
 # Azure Kubernetes Service (AKS)
 | Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
-| 200   | Overview Azure Kubernetes Service (AKS)                                      | https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes                                                |   docs.microsoft.com     | Online Reading |                | 5/05/2019  |
+| 200   | Overview Azure Kubernetes Service (AKS)                                      | https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes                                 |   docs.microsoft.com     | Online Reading |  5m              | 5/05/2019  |
+| 200   | Kubernetes core concepts for Azure Kubernetes Service (AKS)                                      | https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads                                 |   docs.microsoft.com     | Online Reading |  15m              | 5/05/2019  |
+
+
+
 
 
 | 200   | Windows Containers on   Windows 10                                             | https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/quick-start-windows-10       |        | Online Reading |                | 5/02/2019  |
