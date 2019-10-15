@@ -87,6 +87,21 @@ The following resources have been curated to help guide you in your readiness fo
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
 | 300   | Prepare an application for Azure Kubernetes Service (AKS) (Steps 1-7)      | https://docs.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-app                             |   docs.microsoft.com     | Online Reading & Hands On |    2h            | 12/18/2018  |
 
+
+# Azure Kubernetes Service (AKS) Concepts
+| Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
+|-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
+| 300   | Clusters and Workloads      | https://docs.microsoft.com/en-us/azure/aks/concepts-clusters-workloads                             |   docs.microsoft.com     | Online Reading |    15m            | 6/02/2019  |
+| 300   | Access and Identity      | https://docs.microsoft.com/en-us/azure/aks/concepts-identity                             |   docs.microsoft.com     | Online Reading |    15m            | 2/27/2019  |
+| 300   | Security      | https://docs.microsoft.com/en-us/azure/aks/concepts-security                             |   docs.microsoft.com     | Online Reading |    15m            | 2/28/2019  |
+| 300   | Networking      | https://docs.microsoft.com/en-us/azure/aks/concepts-networking                             |   docs.microsoft.com     | Online Reading |    15m            | 2/27/2019  |
+| 300   | Storage      | https://docs.microsoft.com/en-us/azure/aks/concepts-storage                             |   docs.microsoft.com     | Online Reading |    15m            | 2/28/2019  |
+| 300   | Scale      | https://docs.microsoft.com/en-us/azure/aks/concepts-scale                             |   docs.microsoft.com     | Online Reading |    15m            | 2/27/2019  |
+| 300   | Service Quotas and Limits      | https://docs.microsoft.com/en-us/azure/aks/quotas-skus-regions                             |   docs.microsoft.com     | Online Reading |    15m            | 4/08/2019  |
+
+
+
+
 | 200   | Build a Sample App                                                             | https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/building-sample-app          |        | Online Reading |                | 5/02/2019  |
 | 200   | Best Practices for   Writing Dockerfiles                                       | https://docs.docker.com/develop/develop-images/dockerfile_best-practices/                                  |        | Online Reading |                | 5/02/2019  |
 | 200   | Deploy a Registry Server                                                       | https://docs.microsoft.com/en-us/learn/modules/build-and-store-container-images/index                      |        | Online Reading |                | 5/02/2019  |
