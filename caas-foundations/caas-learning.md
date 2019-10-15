@@ -105,10 +105,10 @@ The following resources have been curated to help guide you in your readiness fo
 # Kubernetes: Up and Running, 2nd Edition
 | Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
-| 300   | Chapters 1,4,5      | https://learning.oreilly.com/library/view/managing-kubernetes/9781492033905/                          |   learning.oreilly.com     | Book |    2hr            | 10/2019  |
-| 300   | Chapters 6,7,8      | https://learning.oreilly.com/library/view/managing-kubernetes/9781492033905/                          |   learning.oreilly.com     | Book |    2hr            | 10/2019  |
-| 300   | Chapters 9,10,11      | https://learning.oreilly.com/library/view/managing-kubernetes/9781492033905/                          |   learning.oreilly.com     | Book |    2hr            | 10/2019  |
-| 300   | Chapters 12,13,14      | https://learning.oreilly.com/library/view/managing-kubernetes/9781492033905/                          |   learning.oreilly.com     | Book |    2hr            | 10/2019  |
+| 300   | Chapters 1,4,5      | https://learning.oreilly.com/library/view/managing-kubernetes/9781492033905/                          |   learning.oreilly.com     | Online Book |    2hr            | 10/2019  |
+| 300   | Chapters 6,7,8      | https://learning.oreilly.com/library/view/managing-kubernetes/9781492033905/                          |   learning.oreilly.com     | Online Book |    2hr            | 10/2019  |
+| 300   | Chapters 9,10,11      | https://learning.oreilly.com/library/view/managing-kubernetes/9781492033905/                          |   learning.oreilly.com     | Online Book |    2hr            | 10/2019  |
+| 300   | Chapters 12,13,14      | https://learning.oreilly.com/library/view/managing-kubernetes/9781492033905/                          |   learning.oreilly.com     | Online Book |    2hr            | 10/2019  |
 
 
 | 200   | Build a Sample App                                                             | https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/building-sample-app          |        | Online Reading |                | 5/02/2019  |
