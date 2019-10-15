@@ -85,7 +85,7 @@ The following resources have been curated to help guide you in your readiness fo
 # Azure Kubernetes Service (AKS) Tutorial
 | Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
-
+| 300   | Prepare an application for Azure Kubernetes Service (AKS) (Steps 1-7)      | https://docs.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-app                             |   docs.microsoft.com     | Online Reading & Hands On |    2h            | 12/18/2018  |
 
 | 200   | Build a Sample App                                                             | https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/building-sample-app          |        | Online Reading |                | 5/02/2019  |
 | 200   | Best Practices for   Writing Dockerfiles                                       | https://docs.docker.com/develop/develop-images/dockerfile_best-practices/                                  |        | Online Reading |                | 5/02/2019  |
