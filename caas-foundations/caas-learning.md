@@ -130,7 +130,20 @@ The following resources have been curated to help guide you in your readiness fo
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
 | 100   | CKAD Program Overview      | https://www.cncf.io/certification/ckad/                            |   www.cncf.io     | Online Reading |    10m            |   |
 | 100   | CKAD Exam Curriculum     | https://github.com/cncf/curriculum                            |   github.com     | Online Reading |    5m            |   |
-| 300   | CKAD - Core Concepts     | https://kubernetes.io/docs/tasks/ - Configure Pods and Containers                            |   kubernetes.io     | Online Reading & Hands On |    15m            |   |
+| 300   | CKAD - Core Concepts     | https://kubernetes.io/docs/tasks/ - Configure Pods and Containers                            |   kubernetes.io     | Online Reading & Hands On |    1h            |   |
+| 300   | CKAD - Core Concepts Excercises    | https://github.com/dgkanatsios/CKAD-exercises/blob/master/a.core_concepts.md                            |   github.com     | Online Reading & Hands On |    1h            |   |
+| 300   | CKAD - Multi-container Pods     | https://kubernetes.io/docs/tasks/ - Access Applications in a Cluster/Communication Between Containers in the Same Pod Using a Shared Volume                            |   kubernetes.io     | Online Reading & Hands On |    1h            |   |
+| 300   | CKAD - Multi-container Pods Excercises    | https://github.com/dgkanatsios/CKAD-exercises/blob/master/b.multi_container_pods.md                           |   github.com     | Online Reading & Hands On |    30m            |   |
+| 300   | CKAD - Pod Design     | https://kubernetes.io/docs/tasks/ - Configure Pods and Containers                            |   kubernetes.io     | Online Reading & Hands On |    1h            |   |
+| 300   | CKAD - Core Concepts Excercises    | https://github.com/dgkanatsios/CKAD-exercises/blob/master/a.core_concepts.md                            |   github.com     | Online Reading & Hands On |    1h            |   |
+| 300   | CKAD - Core Concepts     | https://kubernetes.io/docs/tasks/ - Configure Pods and Containers                            |   kubernetes.io     | Online Reading & Hands On |    1h            |   |
+| 300   | CKAD - Core Concepts Excercises    | https://github.com/dgkanatsios/CKAD-exercises/blob/master/a.core_concepts.md                            |   github.com     | Online Reading & Hands On |    1h            |   |
+| 300   | CKAD - Core Concepts     | https://kubernetes.io/docs/tasks/ - Configure Pods and Containers                            |   kubernetes.io     | Online Reading & Hands On |    1h            |   |
+| 300   | CKAD - Core Concepts Excercises    | https://github.com/dgkanatsios/CKAD-exercises/blob/master/a.core_concepts.md                            |   github.com     | Online Reading & Hands On |    1h            |   |
+| 300   | CKAD - Core Concepts     | https://kubernetes.io/docs/tasks/ - Configure Pods and Containers                            |   kubernetes.io     | Online Reading & Hands On |    1h            |   |
+| 300   | CKAD - Core Concepts Excercises    | https://github.com/dgkanatsios/CKAD-exercises/blob/master/a.core_concepts.md                            |   github.com     | Online Reading & Hands On |    1h            |   |
+| 300   | CKAD - Core Concepts     | https://kubernetes.io/docs/tasks/ - Configure Pods and Containers                            |   kubernetes.io     | Online Reading & Hands On |    1h            |   |
+| 300   | CKAD - Core Concepts Excercises    | https://github.com/dgkanatsios/CKAD-exercises/blob/master/a.core_concepts.md                            |   github.com     | Online Reading & Hands On |    1h            |   |
 
 
 ## Kubernetes Foundation Learning Path
