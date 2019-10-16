@@ -128,6 +128,8 @@ The following resources have been curated to help guide you in your readiness fo
 # Certified Kubernetes Application Developer (CKAD) Exam Prep
 | Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
+| 100   | CKAD Program Overview      | https://www.cncf.io/certification/ckad/                            |   www.cncf.io     | Online Reading |    10m            |   |
+| 100   | CKAD Exam Curriculum     | https://github.com/cncf/curriculum                            |   github.com     | Online Reading |    5m            |   |
 
 
 ## Kubernetes Foundation Learning Path
