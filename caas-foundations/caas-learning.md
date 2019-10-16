@@ -134,8 +134,14 @@ The following resources have been curated to help guide you in your readiness fo
 | 300   | CKAD - Core Concepts Excercises    | https://github.com/dgkanatsios/CKAD-exercises/blob/master/a.core_concepts.md                            |   github.com     | Online Reading & Hands On |    1h            |   |
 | 300   | CKAD - Multi-container Pods     | https://kubernetes.io/docs/tasks/ - Access Applications in a Cluster/Communication Between Containers in the Same Pod Using a Shared Volume                            |   kubernetes.io     | Online Reading & Hands On |    1h            |   |
 | 300   | CKAD - Multi-container Pods Excercises    | https://github.com/dgkanatsios/CKAD-exercises/blob/master/b.multi_container_pods.md                           |   github.com     | Online Reading & Hands On |    30m            |   |
-| 300   | CKAD - Pod Design     | https://kubernetes.io/docs/tasks/ - Configure Pods and Containers                            |   kubernetes.io     | Online Reading & Hands On |    1h            |   |
-| 300   | CKAD - Core Concepts Excercises    | https://github.com/dgkanatsios/CKAD-exercises/blob/master/a.core_concepts.md                            |   github.com     | Online Reading & Hands On |    1h            |   |
+| 300   | CKAD - Pod Design     | https://kubernetes.io/docs/concepts/ 
+Concepts/Overview/Working with Kubernetes Objects/Labels and Selectors
+Concepts/Overview/Working with Kubernetes Objects/Annotations
+Concepts/Workloads/Controllers/Deployments
+Concepts/Workloads/Controllers/Jobs - Run to Completion
+https://kubernetes.io/docs/tasks/job/automated-tasks-with-cron-jobs/
+|   kubernetes.io     | Online Reading & Hands On |    1h            |   |
+| 300   | CKAD - Pod Design Excercises    | https://github.com/dgkanatsios/CKAD-exercises/blob/master/c.pod_design.md                            |   github.com     | Online Reading & Hands On |    1h            |   |
 | 300   | CKAD - Core Concepts     | https://kubernetes.io/docs/tasks/ - Configure Pods and Containers                            |   kubernetes.io     | Online Reading & Hands On |    1h            |   |
 | 300   | CKAD - Core Concepts Excercises    | https://github.com/dgkanatsios/CKAD-exercises/blob/master/a.core_concepts.md                            |   github.com     | Online Reading & Hands On |    1h            |   |
 | 300   | CKAD - Core Concepts     | https://kubernetes.io/docs/tasks/ - Configure Pods and Containers                            |   kubernetes.io     | Online Reading & Hands On |    1h            |   |
