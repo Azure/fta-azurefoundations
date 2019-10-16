@@ -130,6 +130,7 @@ The following resources have been curated to help guide you in your readiness fo
 |-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
 | 100   | CKAD Program Overview      | https://www.cncf.io/certification/ckad/                            |   www.cncf.io     | Online Reading |    10m            |   |
 | 100   | CKAD Exam Curriculum     | https://github.com/cncf/curriculum                            |   github.com     | Online Reading |    5m            |   |
+| 300   | CKAD - Core Concepts     | https://kubernetes.io/docs/tasks/ - Configure Pods and Containers                            |   kubernetes.io     | Online Reading & Hands On |    15m            |   |
 
 
 ## Kubernetes Foundation Learning Path
