@@ -111,18 +111,24 @@ The following resources have been curated to help guide you in your readiness fo
 | 300   | Chapters 12,13,14      | https://learning.oreilly.com/library/view/managing-kubernetes/9781492033905/                          |   learning.oreilly.com     | Online Book |    2hr            | 10/2019  |
 
 
-| 200   | Build a Sample App                                                             | https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/building-sample-app          |        | Online Reading |                | 5/02/2019  |
-| 200   | Best Practices for   Writing Dockerfiles                                       | https://docs.docker.com/develop/develop-images/dockerfile_best-practices/                                  |        | Online Reading |                | 5/02/2019  |
-| 200   | Deploy a Registry Server                                                       | https://docs.microsoft.com/en-us/learn/modules/build-and-store-container-images/index                      |        | Online Reading |                | 5/02/2019  |
-| 200   | Build and Store   Container Images with Azure Container Registry               | https://docs.microsoft.com/en-us/learn/modules/build-and-store-container-images/index                      |        | Online Reading |                | 5/02/2019  |
+# Azure Kubernetes Service (AKS) Cluster Operations Best Practices
+| Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
+|-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
+| 300   | Multi-tenancy & Cluster Isolation      | https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-cluster-isolation                            |   docs.microsoft.com     | Online Reading |    10m            | 11/25/2018  |
+| 300   | Basic Scheduler Features      | https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-scheduler                            |   docs.microsoft.com     | Online Reading |    10m            | 11/25/2018  |
+| 300   | Advanced Scheduler Features      | https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-advanced-scheduler                            |   docs.microsoft.com     | Online Reading |    10m            | 11/25/2018  |
+| 300   | Authentication & Authorization      | https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-identity                            |   docs.microsoft.com     | Online Reading |    10m            | 11/25/2018  |
+| 300   | Cluster Security      | https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-cluster-security                            |   docs.microsoft.com     | Online Reading |    10m            | 11/25/2018  |
+| 300   | Container Image Management      | https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-container-image-management                            |   docs.microsoft.com     | Online Reading |    10m            | 11/25/2018  |
+| 300   | Networking      | https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-network                            |   docs.microsoft.com     | Online Reading |    10m            | 11/25/2018  |
+| 300   | Storage      | https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-storage                            |   docs.microsoft.com     | Online Reading |    10m            | 11/25/2018  |
+| 300   | BC/DR      | https://docs.microsoft.com/en-us/azure/aks/operator-best-practices-multi-region                            |   docs.microsoft.com     | Online Reading |    10m            | 11/27/2018  |
 
-| 200   | Deploy an Azure   Kubernetes Service (AKS) cluster using the Azure portal      | https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough-portal                                   |        | Online Reading |                | 5/02/2019  |
-| 300   | Build a Sample App                                                             | https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/building-sample-app          |        | Online Reading |                | 5/02/2019  |
-| 300   | Best Practices for   Writing Dockerfiles                                       | https://docs.docker.com/develop/develop-images/dockerfile_best-practices/                                  |        | Online Reading |                | 5/02/2019  |
-| 300   | Run a container   application in Azure Container Instances in the Azure portal | https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-portal           |        | Online Reading |                | 5/02/2019  |
-| 300   | Run Docker Containers   with Azure Container Instances                         | https://docs.microsoft.com/en-us/learn/modules/run-docker-with-azure-container-instances/index             |        | Online Reading |                | 5/02/2019  |
-| 400   | Deploy a Docker/Go   web app in Web App for Containers                         | https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-docker-go                         |        | Online Reading |                | 5/02/2019  |
-| 400   | Run a custom Windows   container in Azure (Preview)                            | https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-windows-container           |        | Online Reading |                | 5/02/2019  |
+
+# Certified Kubernetes Application Developer (CKAD) Exam Prep
+| Level | Title                                                                          | Link                                                                                                       | Source | Modality       | Length (Hours) | When added |
+|-------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------|----------------|----------------|------------|
+
 
 ## Kubernetes Foundation Learning Path
 | Course | Audience | Readiness Resource Page |
