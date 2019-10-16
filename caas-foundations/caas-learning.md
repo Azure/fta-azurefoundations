@@ -137,10 +137,6 @@ The following resources have been curated to help guide you in your readiness fo
 | 300   | CKAD - Pod Design     | https://kubernetes.io/docs/concepts/ - Concepts/Overview/Working with Kubernetes Objects/Labels and Selectors; Concepts/Overview/Working with Kubernetes Objects/Annotations; Concepts/Workloads/Controllers/Deployments; Concepts/Workloads/Controllers/Jobs - Run to Completion; https://kubernetes.io/docs/tasks/job/automated-tasks-with-cron-jobs/
 |   kubernetes.io     | Online Reading & Hands On |    1h            |   |
 | 300   | CKAD - Pod Design Excercises    | https://github.com/dgkanatsios/CKAD-exercises/blob/master/c.pod_design.md                            |   github.com     | Online Reading & Hands On |    1h            |   |
-
-
-
-
 | 300   | CKAD - Core Concepts     | https://kubernetes.io/docs/tasks/ - Configure Pods and Containers                            |   kubernetes.io     | Online Reading & Hands On |    1h            |   |
 | 300   | CKAD - Core Concepts Excercises    | https://github.com/dgkanatsios/CKAD-exercises/blob/master/a.core_concepts.md                            |   github.com     | Online Reading & Hands On |    1h            |   |
 | 300   | CKAD - Core Concepts     | https://kubernetes.io/docs/tasks/ - Configure Pods and Containers                            |   kubernetes.io     | Online Reading & Hands On |    1h            |   |
