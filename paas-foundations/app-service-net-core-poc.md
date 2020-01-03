@@ -13,7 +13,7 @@ A .Net Core Multi-Tier PaaS Sample Application
     
     * Download latest SQL Server Management Studio [here](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms) and install:
     
-    * Download Proof-of-concept project from [here](https://demowebst.blob.core.windows.net/code/ContosoCoreProject.zip)
+    * Download Proof-of-concept project from [here](https://demowebst.blob.core.windows.net/sharecode/ContosoCoreProject.zip)
 
 ## Planning
 | |Resource Type | Your Name | Name Used in this POC | Description |
