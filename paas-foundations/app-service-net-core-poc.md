@@ -1,5 +1,7 @@
 ## Contoso Expenses 
-A .Net Core Multi-Tier PaaS Sample Application
+A .Net Core Multi-Tier PaaS Sample Application. During this POC you will learn about bringing together various Azure PaaS Services like App Services Web App, API App, Functions, Storage queue & SQL DB to build and deploy a sample Expenses solution.
+
+![Screenshot](media/appmod-pic-poc-visio.png)
 
 ## Prerequisites
 * To complete the Proof of Concept, you will need:
