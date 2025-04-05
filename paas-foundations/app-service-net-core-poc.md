@@ -7,7 +7,7 @@ A .Net Core Multi-Tier PaaS Sample Application. During this POC you will learn a
 * To complete the Proof of Concept, you will need:
     * A Microsoft Azure subscription (with Owner or Contributor access)
 
-    * Install latest version of [Visual Studio 2017](https://www.visualstudio.com/downloads/) Enterprise with following Workloads:
+    * Install latest version of [Visual Studio 2019](https://www.visualstudio.com/downloads/) Enterprise with following Workloads:
       * .NET desktop development 
       * ASP.NET and web development 
       * Azure development  
@@ -111,7 +111,7 @@ Type ‘web app’ in the search box
 * Select the resource group you created
 * Type in the name of the web app (or API app) that you chose in the planning section
 * Set Publish to code
-* Set the Runtime stack to .Net Core 2.2
+* Set the Runtime stack to .Net Core 3.1
 * Set the operating system to Windows
 * Choose the Azure region that you decided on in the planning section as the location
 * Choose the app service plan you created
